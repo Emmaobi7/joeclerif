@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STILL WATERS — Sanctuary of Light & Form</title>
+  <style>
+    :root {
+      --brown-deep: #22160b;
+      --brown-base: #4a3520;
+      --pale-gold: #efe0b9;
+      --glow-gold: #f5b841;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: var(--brown-deep);
+      color: var(--pale-gold);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      overflow-x: hidden;
+      min-height: 100vh;
+      user-select: none;
+    }
+
+    /* Full-bleed viewport container */
+    .hero-canvas {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      min-height: 680px;
+      background:
+        radial-gradient(circle at 82% 12%, rgba(245, 184, 65, 0.42) 0%, rgba(74, 53, 32, 0.25) 42%, rgba(34, 22, 11, 0.96) 85%),
+        linear-gradient(125deg, #2d1d0f 0%, #4a3520 48%, #22160b 100%);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    /* Volumetric diagonal sunbeams */
+    .sunbeams {
+      position: absolute;
+      inset: -20%;
+      pointer-events: none;
+      background:
+        linear-gradient(
+          132deg,
+          transparent 38%,
+          rgba(245, 184, 65, 0.14) 47%,
+          rgba(239, 224, 185, 0.24) 52%,
+          rgba(245, 184, 65, 0.10) 58%,
+          transparent 68%
+        ),
+        linear-gradient(
+          138deg,
+          transparent 54%,
+          rgba(245, 184, 65, 0.16) 61%,
+          transparent 70%
+        );
+      filter: blur(18px);
+      transform-origin: top right;
+      animation: beamBreathe 9s ease-in-out infinite alternate;
+    }
+
+    @keyframes beamBreathe {
+      0% { opacity: 0.85; transform: scale(1) translate(0, 0); }
+      100% { opacity: 1; transform: scale(1.04) translate(-1%, 1%); }
+    }
+
+    /* Tactile film grain overlay to eliminate gradient banding */
+    .film-grain {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.045;
+      z-index: 20;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    }
+
+    /* Minimalist Top Navigation */
+    header {
+      position: relative;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 28px 56px;
+      border-bottom: 1px solid rgba(239, 224, 185, 0.12);
+    }
+
+    .brand-mark {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--pale-gold);
+      text-decoration: none;
+      font-size: 11px;
+      letter-spacing: 0.3em;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 42px;
+    }
+
+    nav a {
+      color: rgba(239, 224, 185, 0.72);
+      text-decoration: none;
+      font-size: 10px;
+      font-weight: 400;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover,
+    nav a.active {
+      color: var(--pale-gold);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .icon-btn {
+      background: none;
+      border: none;
+      color: var(--pale-gold);
+      cursor: pointer;
+      opacity: 0.8;
+      transition: opacity 0.25s ease;
+    }
+
+    .icon-btn:hover {
+      opacity: 1;
+    }
+
+    /* Main Editorial Stage */
+    .stage {
+      position: relative;
+      z-index: 5;
+      flex: 1;
+      display: grid;
+      grid-template-columns: 1.1fr 1fr 0.45fr;
+      align-items: center;
+      padding: 0 56px;
+    }
+
+    /* Left Column: Headline & CTA */
+    .editorial-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 76%;
+      padding-left: 16px;
+    }
+
+    .eyebrow {
+      font-size: 10px;
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+      color: rgba(239, 224, 185, 0.65);
+      line-height: 1.8;
+    }
+
+    .headline-wrap {
+      position: relative;
+      margin: auto 0;
+    }
+
+    h1 {
+      font-family: "Cormorant Garamond", "Didot", "Bodoni MT", "Times New Roman", Georgia, serif;
+      font-weight: 300;
+      font-size: clamp(4.2rem, 7.2vw, 7.2rem);
+      line-height: 0.92;
+      letter-spacing: 0.06em;
+      color: var(--pale-gold);
+      text-transform: uppercase;
+      text-shadow: 0 12px 40px rgba(34, 22, 11, 0.65);
+    }
+
+    .sparkle {
+      position: absolute;
+      right: 14%;
+      top: 48%;
+      color: var(--glow-gold);
+      font-size: 18px;
+      filter: drop-shadow(0 0 8px var(--glow-gold));
+      animation: pulseStar 3.5s ease-in-out infinite;
+    }
+
+    @keyframes pulseStar {
+      0%, 100% { opacity: 0.55; transform: scale(0.9); }
+      50% { opacity: 1; transform: scale(1.15); }
+    }
+
+    .orbital-arc {
+      position: absolute;
+      left: -24px;
+      bottom: -26px;
+      width: 112%;
+      height: 90px;
+      pointer-events: none;
+    }
+
+    .cta-pill {
+      align-self: flex-start;
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      padding: 13px 28px;
+      border-radius: 999px;
+      border: 1px solid rgba(239, 224, 185, 0.38);
+      background: rgba(34, 22, 11, 0.25);
+      backdrop-filter: blur(6px);
+      color: var(--pale-gold);
+      font-size: 10px;
+      letter-spacing: 0.26em;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: all 0.35s ease;
+    }
+
+    .cta-pill:hover {
+      border-color: var(--glow-gold);
+      background: rgba(245, 184, 65, 0.14);
+      box-shadow: 0 0 28px rgba(245, 184, 65, 0.22);
+      transform: translateY(-1px);
+    }
+
+    /* Center Subject: Origami Heron & Water Plane */
+    .heron-stage {
+      position: relative;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      padding-bottom: 14vh;
+    }
+
+    .heron-svg {
+      width: min(390px, 34vw);
+      height: auto;
+      z-index: 4;
+      filter: drop-shadow(-14px 18px 28px rgba(20, 12, 5, 0.65));
+      animation: floatSubtle 7s ease-in-out infinite alternate;
+    }
+
+    @keyframes floatSubtle {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-4px); }
+    }
+
+    /* Mirrored Water Reflection */
+    .heron-reflection {
+      position: absolute;
+      bottom: -14vh;
+      width: min(390px, 34vw);
+      transform: scaleY(-0.72) skewX(-6deg);
+      opacity: 0.32;
+      filter: blur(3px);
+      mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent 85%);
+      -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent 85%);
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    /* Water Horizon Surface */
+    .water-plane {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 16vh;
+      background: linear-gradient(
+        180deg,
+        rgba(245, 184, 65, 0.16) 0%,
+        rgba(74, 53, 32, 0.55) 28%,
+        rgba(26, 16, 8, 0.95) 100%
+      );
+      border-top: 1px solid rgba(239, 224, 185, 0.22);
+      z-index: 1;
+    }
+
+    .water-shimmer {
+      position: absolute;
+      bottom: 12.5vh;
+      left: 52%;
+      transform: translateX(-50%);
+      width: 340px;
+      height: 18px;
+      background: radial-gradient(ellipse at center, rgba(245, 184, 65, 0.45) 0%, transparent 72%);
+      filter: blur(5px);
+      z-index: 3;
+    }
+
+    /* Right Editorial Rail */
+    .editorial-right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: space-between;
+      height: 76%;
+      text-align: right;
+      z-index: 6;
+    }
+
+    .rail-note {
+      font-size: 9px;
+      letter-spacing: 0.26em;
+      line-height: 1.9;
+      color: rgba(239, 224, 185, 0.65);
+      text-transform: uppercase;
+    }
+
+    .preview-card {
+      width: 112px;
+      height: 112px;
+      padding: 6px;
+      border: 1px solid rgba(239, 224, 185, 0.32);
+      background: rgba(74, 53, 32, 0.35);
+      backdrop-filter: blur(8px);
+      position: relative;
+      cursor: pointer;
+      transition: border-color 0.3s ease;
+    }
+
+    .preview-card:hover {
+      border-color: var(--glow-gold);
+    }
+
+    .preview-inner {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #f5b841 0%, #9c6e2b 55%, #3b2816 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .index-counter {
+      font-family: "Cormorant Garamond", "Times New Roman", Georgia, serif;
+      font-size: 15px;
+      letter-spacing: 0.2em;
+      color: rgba(239, 224, 185, 0.8);
+    }
+
+    @media (max-width: 900px) {
+      header { padding: 20px 24px; }
+      nav { display: none; }
+      .stage {
+        grid-template-columns: 1fr;
+        padding: 24px;
+        text-align: center;
+      }
+      .editorial-left { align-items: center; height: auto; gap: 24px; padding-left: 0; }
+      .cta-pill { align-self: center; }
+      .editorial-right { display: none; }
+      .heron-svg { width: 250px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="hero-canvas">
+    <div class="sunbeams"></div>
+    <div class="film-grain"></div>
+
+    <!-- Top Navigation -->
+    <header>
+      <a href="#" class="brand-mark">
+        <svg width="22" height="16" viewBox="0 0 24 18" fill="none" stroke="currentColor" stroke-width="1.2">
+          <path d="M2 12C6 12 8 6 12 6C16 6 18 12 22 12" />
+          <path d="M5 15C8 15 10 11 12 11C14 11 16 15 19 15" opacity="0.55" />
+        </svg>
+        <span>SW</span>
+      </a>
+
+      <nav>
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Origami</a></li>
+          <li><a href="#">Archive</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn" aria-label="Search">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+            <circle cx="11" cy="11" r="7" />
+            <line x1="16.5" y1="16.5" x2="21" y2="21" />
+          </svg>
+        </button>
+        <button class="icon-btn" aria-label="Menu">
+          <svg width="20" height="14" viewBox="0 0 20 14" fill="none" stroke="currentColor" stroke-width="1.4">
+            <line x1="0" y1="3" x2="20" y2="3" />
+            <line x1="6" y1="11" x2="20" y2="11" />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Editorial Stage -->
+    <main class="stage">
+      <section class="editorial-left">
+        <div class="eyebrow">
+          A SANCTUARY<br />OF CALM &amp; FORM
+        </div>
+
+        <div class="headline-wrap">
+          <h1>STILL<br />WATERS</h1>
+          <span class="sparkle">&#10022;</span>
+          <svg class="orbital-arc" viewBox="0 0 500 100" fill="none">
+            <path
+              d="M10 42 C 140 105, 360 95, 485 18"
+              stroke="url(#arcGrad)"
+              stroke-width="1"
+              stroke-linecap="round"
+            />
+            <defs>
+              <linearGradient id="arcGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#EFE0B9" stop-opacity="0.1" />
+                <stop offset="50%" stop-color="#F5B841" stop-opacity="0.75" />
+                <stop offset="100%" stop-color="#EFE0B9" stop-opacity="0.15" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+
+        <a href="#explore" class="cta-pill">
+          <span>Explore Collection</span>
+          <span>&rarr;</span>
+        </a>
+      </section>
+
+      <section class="heron-stage">
+        <svg class="heron-svg" viewBox="0 0 400 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="goldLit" x1="1" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#FFF2CC" />
+              <stop offset="45%" stop-color="#F5B841" />
+              <stop offset="100%" stop-color="#8C5A19" />
+            </linearGradient>
+            <linearGradient id="goldMid" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#E5A93B" />
+              <stop offset="100%" stop-color="#5E3A10" />
+            </linearGradient>
+            <linearGradient id="goldShade" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#9A661F" />
+              <stop offset="100%" stop-color="#331E08" />
+            </linearGradient>
+          </defs>
+
+          <polygon points="48,74 148,54 142,72" fill="url(#goldLit)" />
+          <polygon points="48,74 142,72 146,80" fill="url(#goldShade)" />
+
+          <polygon points="148,54 185,46 172,76 142,72" fill="url(#goldLit)" />
+          <polygon points="185,46 218,52 172,76" fill="url(#goldMid)" />
+
+          <polygon points="142,72 172,76 196,142 164,132" fill="url(#goldShade)" />
+          <polygon points="172,76 196,142 184,195 162,175" fill="url(#goldLit)" />
+          <polygon points="162,175 184,195 215,235 178,225" fill="url(#goldMid)" />
+
+          <polygon points="178,225 215,235 288,195 232,182" fill="url(#goldLit)" />
+          <polygon points="215,235 288,195 338,278 258,284" fill="url(#goldLit)" />
+          <polygon points="178,225 258,284 218,325 174,274" fill="url(#goldMid)" />
+          <polygon points="258,284 338,278 308,332 218,325" fill="url(#goldShade)" />
+          <polygon points="308,332 346,356 276,338" fill="url(#goldMid)" />
+
+          <polygon points="222,325 230,325 228,468 223,468" fill="url(#goldLit)" />
+          <polygon points="242,324 249,324 264,392 256,395" fill="url(#goldMid)" />
+          <polygon points="256,395 264,392 232,442 228,438" fill="url(#goldShade)" />
+        </svg>
+
+        <svg class="heron-reflection" viewBox="0 0 400 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="48,74 148,54 142,72" fill="#F5B841" />
+          <polygon points="148,54 185,46 172,76 142,72" fill="#EFE0B9" />
+          <polygon points="172,76 196,142 184,195 162,175" fill="#F5B841" />
+          <polygon points="215,235 288,195 338,278 258,284" fill="#EFE0B9" />
+          <polygon points="178,225 258,284 218,325 174,274" fill="#B87E28" />
+          <polygon points="222,325 230,325 228,468 223,468" fill="#F5B841" />
+        </svg>
+      </section>
+
+      <aside class="editorial-right">
+        <div class="rail-note">
+          CRAFTED IN<br />PAPER &amp; LIGHT<br />SERIES IV
+        </div>
+
+        <div class="preview-card" title="Inspect Fold Study">
+          <div class="preview-inner">
+            <svg width="64" height="64" viewBox="0 0 100 100" fill="none">
+              <polygon points="10,85 50,15 90,85" fill="#EFE0B9" opacity="0.85" />
+              <polygon points="50,15 90,85 52,65" fill="#5E3A10" opacity="0.7" />
+            </svg>
+          </div>
+        </div>
+
+        <div class="index-counter">01 / 04</div>
+      </aside>
+    </main>
+
+    <!-- Reflective Water Horizon -->
+    <div class="water-shimmer"></div>
+    <div class="water-plane"></div>
+  </div>
+</body>
+</html>

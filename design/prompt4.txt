@@ -1,0 +1,380 @@
+# J O C L A R I F — THE MOBILE APP EXPERIENCE & DUAL-PLATFORM SHOWCASE
+
+## THE MISSION
+
+We need to introduce a major improvement to the Joclarif proposal presentation.
+
+The proposed digital transformation consists of TWO connected products:
+
+1. A premium hotel website.
+2. A dedicated Joclarif mobile application.
+
+These are complementary products with different roles.
+
+The website serves as the hotel's digital storefront and primary discovery and reservation channel.
+
+The mobile application delivers a richer, more advanced and continuous guest experience.
+
+We need the presentation to communicate this distinction clearly and immediately.
+
+**The mobile application must become one of the most visually prominent parts of the entire proposal.**
+
+This is not a request to build the production mobile application.
+
+We are creating an interactive, visually compelling conceptual demonstration of the proposed mobile experience inside the existing proposal microsite.
+
+Preserve the STILL WATERS aesthetic, existing proposal content, immersive experiences and compact presentation structure.
+
+Do not rebuild the website.
+
+---
+
+## 1. THE HERO — MAKE THE MOBILE APP OBVIOUS
+
+The hero must immediately communicate that Joclarif will have BOTH a website and a dedicated mobile app.
+
+The mobile app should not be an afterthought.
+
+Recompose the existing hero to introduce both products as one connected digital hospitality experience.
+
+### Visual direction
+
+Create a stunning cinematic hero composition featuring:
+
+- A premium, realistic 3D smartphone as a major focal point.
+- A beautifully designed conceptual Joclarif mobile application displayed on the phone.
+- The phone should have realistic glass, metallic edges, reflections, depth and sophisticated lighting.
+- A subtle second visual element representing the web experience, such as an architectural desktop browser composition.
+- Strong editorial typography that clearly communicates the website and mobile app offering.
+
+The smartphone should feel like a premium physical object suspended in a carefully art-directed environment.
+
+Use cinematic lighting, controlled amber reflections and atmospheric depth.
+
+The phone must be large enough to make the mobile app immediately recognizable.
+
+### Suggested hero messaging
+
+Explore a direction such as:
+
+**"Joclarif, Beyond the Stay."**
+
+Supporting message:
+
+"A connected digital hospitality experience, from discovering Joclarif on the web to experiencing every moment through a dedicated mobile application."
+
+The exact copy can be refined, but the message must remain clear.
+
+Include two distinct visual labels:
+
+- Joclarif Digital Experience — Web.
+- Joclarif Guest Experience — Mobile App.
+
+The visitor should understand the two-product offering without needing to scroll.
+
+---
+
+## 2. CREATE AN INTERACTIVE 3D SMARTPHONE SHOWCASE
+
+This is the centerpiece of the new experience.
+
+Build a beautiful interactive 3D smartphone that visitors can explore.
+
+Do not simply insert a static phone mockup.
+
+The smartphone should be a genuine interactive presentation object.
+
+### Device interaction
+
+Implement:
+
+- Subtle 3D rotation following pointer movement.
+- Natural perspective and depth.
+- Controlled camera movement.
+- Smooth transitions between application screens.
+- Interactive screen hotspots or a companion feature selector.
+- Touch-friendly controls on mobile.
+- A reset-view interaction.
+
+The phone should feel like a physical device being presented to the visitor.
+
+Avoid excessive rotation or motion that makes the screen difficult to read.
+
+### Interactive application screens
+
+The phone should showcase a selection of conceptual Joclarif app experiences.
+
+Create beautifully designed screen mockups for:
+
+1. **App Home**
+
+   A personalized guest welcome, hotel discovery, featured experiences and useful shortcuts.
+
+2. **AI Booking Co-Pilot**
+
+   A conversational booking experience where a guest can describe what they need naturally.
+
+   Demonstrate how the assistant could guide room selection, dates, group requirements and booking preparation.
+
+3. **AI Concierge**
+
+   A guest-facing assistant for hotel information, recommendations, service requests and assistance during a stay.
+
+   Include an illustrative conversation and a clear human handoff option.
+
+4. **Guest Messaging**
+
+   A dedicated conversation experience connecting guests with hotel staff.
+
+   Demonstrate persistent conversations, message history and notifications.
+
+5. **Digital Check-in**
+
+   A conceptual arrival experience showing guest details, check-in preparation and supported identity-document capture.
+
+   Clearly communicate that actual identity verification requires staff/system validation.
+
+6. **My Reservations**
+
+   A personalized view of upcoming and previous bookings, reservation details and guest information.
+
+7. **Guest Services**
+
+   An interactive service area for requests such as housekeeping, maintenance, room assistance and other hotel services.
+
+8. **Notifications**
+
+   A sophisticated notification centre demonstrating booking updates, check-in reminders, important guest information and service responses.
+
+### Screen navigation
+
+Visitors should be able to change the displayed phone screen using:
+
+- On-screen navigation.
+- Feature selectors outside the device.
+- Carefully designed swipe-like transitions where practical.
+
+The experience must be intuitive.
+
+Do not attempt to simulate an entire production operating system.
+
+Focus on beautifully designed app screens that demonstrate the proposed capabilities.
+
+---
+
+## 3. MAKE THE WEB VS MOBILE DISTINCTION EXPLICIT
+
+We need to sell both products, but they should have distinct responsibilities.
+
+Create a sophisticated interactive comparison experience.
+
+Avoid a conventional comparison table.
+
+Use a visual composition with two connected environments:
+
+### THE WEB EXPERIENCE — DIGITAL STOREFRONT
+
+Position the website as the primary public-facing digital destination.
+
+Its core capabilities include:
+
+- Hotel discovery and information.
+- Accommodation and facility exploration.
+- Individual reservations.
+- Family and group booking.
+- Event and hall enquiries.
+- Essential reservation management.
+- Booking enquiries and guest communication.
+- Accessible contact and support channels.
+
+The website should feel elegant, informative, accessible and conversion-focused.
+
+### THE MOBILE EXPERIENCE — PERSONAL GUEST COMPANION
+
+Position the mobile app as the deeper, more personalized guest experience.
+
+Its capabilities include the web's essential guest-facing functionality, with additional mobile-first capabilities:
+
+- Advanced AI Booking Co-Pilot.
+- Personalized AI concierge.
+- Richer ongoing guest conversations.
+- Persistent messaging and push notifications.
+- Digital check-in and arrival preparation.
+- Reservation and stay management.
+- Guest service requests.
+- Personalized recommendations.
+- Important stay updates.
+- Convenient access to the guest's hospitality journey.
+
+The app should feel like a companion that stays with the guest throughout the relationship with the hotel.
+
+### Important
+
+Messaging should be available through both web and mobile where appropriate.
+
+However, the mobile application should demonstrate the richer, more continuous communication experience through persistent conversations and notifications.
+
+Do not imply that every mobile capability is exclusively unavailable on the website.
+
+The distinction is one of depth, continuity and experience, not arbitrary feature restrictions.
+
+---
+
+## 4. CREATE A VISUAL DUAL-PLATFORM DEMONSTRATION
+
+Design an interactive presentation moment that shows how both products work together.
+
+For example:
+
+- A guest discovers Joclarif through the website.
+- The guest makes an initial enquiry or reservation.
+- The guest continues the relationship through the mobile application.
+- The mobile app becomes the guest's companion before arrival, during the stay and after checkout.
+
+Present this through a cinematic sequence.
+
+Show a visual transition from desktop/web to smartphone/mobile.
+
+The visitor should understand that both experiences share the same proposed digital hospitality ecosystem.
+
+Do not implement real synchronization or backend functionality.
+
+This is a conceptual demonstration.
+
+---
+
+## 5. GIVE THE MOBILE APP ITS OWN PRESENTATION CHAPTER
+
+Introduce a dedicated mobile experience chapter in the existing compact presentation structure.
+
+It should be one of the most engaging sections of the microsite.
+
+The visitor should be able to:
+
+- Explore the phone.
+- Switch between application screens.
+- Discover advanced mobile capabilities.
+- See example guest conversations.
+- Understand the difference between the website and mobile app.
+- Experience the guest journey visually.
+
+Do not make this another extremely long vertical section.
+
+Reuse the interactive 3D presentation approach and progressive disclosure introduced in the previous redesign.
+
+Aim for one rich presentation environment rather than eight stacked feature sections.
+
+---
+
+## 6. DESIGN THE APPLICATION WITH THE SAME BRAND IDENTITY
+
+The mobile app itself must look like a real premium hospitality application.
+
+It should have its own carefully designed UI system, while remaining visually connected to the microsite.
+
+Use the established Joclarif palette:
+
+- #4A3520
+- #22160B
+- #EFE0B9
+- #F5B841
+- #F7F1E6
+- #80613A
+
+Use refined typography, beautiful imagery, polished navigation and restrained accents.
+
+The application screens must be readable and realistic at smartphone scale.
+
+Do not simply place website screenshots inside a phone frame.
+
+Create genuinely mobile-oriented screen compositions.
+
+The AI interfaces should feel intelligent, warm and hospitable, not like generic chatbot templates.
+
+---
+
+## 7. TECHNICAL IMPLEMENTATION
+
+Work within the existing project.
+
+Use the current framework and existing 3D infrastructure wherever practical.
+
+For the smartphone presentation, choose an appropriate approach:
+
+- React Three Fiber / Three.js for a true 3D device and scene.
+- Optimized 3D models and materials.
+- HTML/CSS-rendered screen interfaces mapped or visually integrated into the device.
+- CSS 3D transformations if they provide a better performance-to-quality ratio.
+
+The device screen should remain crisp and readable.
+
+Avoid creating an unnecessarily complicated 3D rendering pipeline.
+
+Lazy-load heavy assets.
+
+Ensure mobile visitors can interact with the demonstration even if they are using the device on which the simulated phone is displayed.
+
+For smaller screens, consider a simplified device presentation with direct screen navigation rather than relying on pointer rotation.
+
+---
+
+## 8. CONTENT AND SCOPE BOUNDARIES
+
+This remains a proposal presentation.
+
+The mobile app and web experience are proposed products.
+
+All phone screens, conversations, bookings, notifications and hotel service interactions are illustrative demonstrations.
+
+Do not introduce:
+
+- Real booking integrations.
+- Live payment processing.
+- Real push notification infrastructure.
+- Actual identity verification.
+- Production chat infrastructure.
+- Production mobile application code.
+- Backend services or databases.
+
+Do not invent hotel prices, room availability, facilities or operational facts.
+
+Clearly distinguish proposed capabilities from existing hotel operations.
+
+---
+
+## 9. FINAL ACCEPTANCE CRITERIA
+
+After implementation, verify:
+
+1. The hero communicates both web and mobile products immediately.
+2. The smartphone is a prominent visual focal point.
+3. The 3D device feels premium and interactive.
+4. Visitors can explore multiple app screens.
+5. Each mobile feature has a meaningful demonstration.
+6. The distinction between web and mobile is immediately understandable.
+7. Chat and guest communication are represented across both channels appropriately.
+8. The mobile app is positioned as the more advanced guest companion.
+9. The experience fits into the compact presentation structure.
+10. Mobile visitors can use the demonstration comfortably.
+11. The STILL WATERS visual identity remains intact.
+12. No production functionality is falsely implied.
+
+Do not stop after producing mockup images.
+
+Implement the interactive presentation experience.
+
+## FINAL CREATIVE DIRECTION
+
+We are presenting two connected digital products.
+
+The website introduces the hotel to the world.
+
+The mobile application brings the hotel into the guest's pocket.
+
+The website attracts, informs and converts.
+
+The mobile application personalizes, assists, communicates and extends the guest experience.
+
+Make that distinction visually undeniable.
+
+**The first thing the visitor should notice is that Joclarif is being envisioned not just as a hotel with a website, but as a connected hospitality brand with its own dedicated mobile application.**

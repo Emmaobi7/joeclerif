@@ -1,0 +1,101 @@
+# Antigravity Build Brief — Joclarif Digital Hospitality Ecosystem
+
+## PROMPT 1 — PROJECT FOUNDATION AND CREATIVE DIRECTION
+
+You are working on a premium digital product proposal for Joclarif Hotel, Zaria, Nigeria.
+
+The objective is to build a visually impressive, interactive, single-page proposal microsite that presents a vision for transforming Joclarif's digital hospitality experience.
+
+This is NOT the actual hotel website or production booking platform. It is a mock proposal intended to be demonstrated to hotel ownership and management to win their interest in a larger custom software development project.
+
+### Product vision
+
+**Joclarif Digital Hospitality Ecosystem**
+
+A connected hospitality platform spanning:
+
+- Guest-facing website.
+- Guest mobile application.
+- Hotel management environment.
+- Central reservation and availability engine.
+- AI-powered guest experience.
+- Integrated operational services.
+
+### Technology direction
+
+Use a modern, maintainable, production-quality frontend architecture.
+
+Preferred direction:
+- Next.js.
+- TypeScript.
+- Tailwind CSS or an appropriately structured styling system.
+- Lucide icons.
+- Reusable components.
+- Responsive design.
+
+Inspect the existing repository before making architectural decisions. Preserve useful existing configuration and avoid unnecessary dependencies.
+
+Do not introduce WordPress, generic hotel templates, or purchased themes.
+
+### Creative direction
+
+The design must communicate luxury, confidence, sophistication and technological maturity.
+
+Think premium hospitality brand combined with a modern enterprise technology presentation.
+
+Visual characteristics:
+- Elegant editorial typography.
+- Beautiful hotel and hospitality photography.
+- Deep forest green, warm ivory, champagne and restrained bronze accents.
+- Spacious layouts.
+- Strong typography hierarchy.
+- Refined motion and transitions.
+- Beautiful cards and subtle borders.
+- Excellent desktop and mobile responsiveness.
+
+Avoid:
+- Generic SaaS dashboard aesthetics throughout the entire page.
+- Excessive gradients.
+- Excessive glassmorphism.
+- Cartoon illustrations.
+- Generic AI-generated robot imagery.
+- Overloaded layouts.
+- Cheap-looking animations.
+- Excessive rounded cards.
+- Template-like sections.
+
+The result should look deliberately art-directed.
+
+### Important factual restrictions
+
+Joclarif is a real hotel in Zaria, Nigeria.
+
+We have identified an expired historical website and its former Romancy WordPress theme. We are NOT rebuilding that website.
+
+Do not invent:
+- Official Joclarif branding guidelines.
+- Verified room categories.
+- Actual room prices.
+- Actual hall capacities.
+- Actual room availability.
+- Existing hotel software.
+- Existing payment integrations.
+- Confirmed operational capabilities.
+- Hotel ownership endorsements.
+
+Where information is not verified, use clearly labelled illustrative examples or proposed capabilities.
+
+Do not present this proposal as an officially approved Joclarif product.
+
+### First task
+
+Inspect the repository and establish the project structure.
+
+Then create a concise implementation plan covering:
+1. Page architecture.
+2. Component structure.
+3. Design system.
+4. Interactive demonstrations.
+5. Responsive strategy.
+
+Do not begin with a generic landing page. Build the experience around the proposal's actual business and technical story.

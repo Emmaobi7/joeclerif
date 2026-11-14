@@ -1,0 +1,290 @@
+# J O C L A R I F — CINEMATIC DESIGN TRANSFORMATION
+
+## Mission
+
+Transform the existing Joclarif Hotel proposal microsite into an extraordinary luxury hospitality presentation.
+
+This is a redesign of an existing project, NOT a new product build.
+
+The objective is to make hotel management experience a compelling vision of what Joclarif could become through an immersive, cinematic, premium digital presentation.
+
+The experience should feel like a meeting point between:
+
+- STILL WATERS — Charles Liu's luxury editorial visual language.
+- Apple's product storytelling and cinematic transitions.
+- High-end hospitality branding.
+- Carefully selected interactive 3D experiences.
+- Premium architectural and interior-design presentations.
+
+The result must feel intentional, sophisticated, atmospheric and memorable.
+
+---
+
+## 1. FIRST: AUDIT THE EXISTING PROJECT
+
+Before changing anything:
+
+1. Inspect the entire existing codebase.
+2. Identify the current page structure, sections, components, interactions, assets and routing.
+3. Understand how the existing proposal content is organized.
+4. Identify which interactive demonstrations already exist.
+5. Identify reusable components and functional interactions.
+6. Preserve the existing proposal's information architecture and business narrative.
+
+Do not discard working content or interactions simply to make the redesign easier.
+
+Do not rebuild the project from scratch.
+
+Do not start implementing the actual hotel platform.
+
+---
+
+## 2. THE VISUAL IDENTITY — STILL WATERS
+
+The new visual language must be built around these colours:
+
+- Deep umber: #4A3520
+- Dark shadow: #22160B
+- Pale champagne: #EFE0B9
+- Glowing amber: #F5B841
+- Warm ivory: #F7F1E6
+- Muted bronze: #80613A
+
+Use these colours with restraint.
+
+The experience should feature:
+
+- Cinematic diagonal volumetric lighting.
+- Subtle atmospheric gradients.
+- Soft reflections and carefully controlled highlights.
+- Tactile film-grain texture.
+- Refined hairline borders.
+- Elegant typography.
+- Generous negative space.
+- Sophisticated asymmetrical layouts.
+- Beautiful transitions between light and dark environments.
+
+Typography:
+
+Use a refined editorial serif for major headlines. Cormorant Garamond is a strong candidate.
+
+Pair it with a clean, modern sans-serif for supporting text, navigation and technical details.
+
+Avoid generic SaaS typography and generic dashboard aesthetics.
+
+The design should communicate quiet luxury rather than loud extravagance.
+
+---
+
+## 3. THE HERO — MAKE THE FIRST IMPRESSION COUNT
+
+Completely rethink the opening experience.
+
+The first screen should feel like entering a luxury hospitality film.
+
+Create a cinematic introduction with:
+
+- An atmospheric dark environment.
+- Beautiful architectural or hospitality imagery.
+- Controlled amber illumination.
+- Elegant typography.
+- A strong, emotionally compelling headline.
+- Restrained entrance animations.
+- A carefully designed transition into the rest of the proposal.
+
+The Joclarif identity must feel integrated into the experience rather than simply placed on top of a template.
+
+The hero must communicate transformation, hospitality and possibility.
+
+Avoid generic hotel stock-template layouts.
+
+Use genuine Joclarif imagery if available in the existing project. If unavailable, use carefully selected conceptual architectural imagery without misrepresenting it as actual Joclarif facilities.
+
+---
+
+## 4. CINEMATIC STORYTELLING
+
+The entire page should feel like one continuous visual narrative.
+
+Do not make every section look like an independent card.
+
+Use visual transitions between sections through:
+
+- Changes in lighting and atmosphere.
+- Full-width editorial compositions.
+- Carefully paced typography.
+- Layered image treatments.
+- Scroll-triggered reveals.
+- Subtle depth and parallax.
+- Intentional changes in visual scale.
+
+The business opportunity should feel like a story unfolding, not a collection of sales bullet points.
+
+The existing proposal sections should remain recognizable and their substantive meaning preserved.
+
+---
+
+## 5. SELECTED IMMERSIVE 3D EXPERIENCES
+
+Introduce 3D where it adds genuine presentation value.
+
+Do not make the entire page a 3D experiment.
+
+Explore these opportunities:
+
+### A. Architectural introduction
+
+Create an immersive architectural moment that establishes the hospitality atmosphere.
+
+It could involve a refined 3D environment, an architectural form, a cinematic camera movement or an elegant spatial composition.
+
+### B. Interactive hotel experience
+
+Where appropriate, create a conceptual demonstration of how guests might explore rooms, facilities or event spaces in the future.
+
+This is a visual demonstration, not a live hotel inventory system.
+
+### C. Group and event booking visualization
+
+Present the complexity of group reservations through an elegant interactive visual experience.
+
+For example, show how one event reservation could connect multiple guest rooms, allocations and consolidated coordination.
+
+### D. Hospitality intelligence
+
+Explore an immersive visual representation of how a conversational booking assistant, concierge and hotel operations could work together.
+
+These must remain illustrative demonstrations.
+
+Use React Three Fiber, Three.js, Spline or another suitable approach only where the result justifies the complexity.
+
+Prioritize visual quality, responsiveness and performance.
+
+---
+
+## 6. INTERACTIONS AND MOTION
+
+Every interaction should feel deliberate.
+
+Implement:
+
+- Smooth, refined page transitions.
+- Scroll-triggered animation.
+- Elegant hover responses.
+- Subtle depth effects.
+- Thoughtful navigation behavior.
+- Sophisticated image reveals.
+- Controlled typography animations.
+- Seamless movement between visual environments.
+
+Avoid:
+
+- Excessive bouncing.
+- Random particle effects.
+- Constant movement.
+- Unnecessary cursor effects.
+- Overly aggressive parallax.
+- Animation that makes content difficult to read.
+
+Support reduced-motion preferences.
+
+Ensure that mobile devices receive a beautiful, appropriately simplified experience.
+
+---
+
+## 7. VISUAL QUALITY STANDARD
+
+The finished work should not resemble:
+
+- A generic hotel website template.
+- A standard SaaS landing page.
+- A collection of rounded cards.
+- A conventional business proposal.
+- A developer portfolio.
+
+It should feel like a luxury hospitality brand commissioning an international creative studio to present its digital future.
+
+Study the visual language of high-end architecture studios, luxury hospitality brands, editorial websites and premium product launches.
+
+Do not copy any one website.
+
+Create a coherent original experience.
+
+---
+
+## 8. IMPORTANT CONTENT AND SCOPE BOUNDARIES
+
+This is a proposal presentation.
+
+Preserve the existing conceptual features and business narrative.
+
+Do not introduce claims that Joclarif already has:
+
+- A live booking platform.
+- Operational AI systems.
+- Existing mobile applications.
+- Integrated payment infrastructure.
+- Automated identity verification.
+- Connected hotel management systems.
+
+Do not invent room categories, prices, capacities, facilities or hotel operational data.
+
+Label conceptual demonstrations appropriately.
+
+Do not implement production APIs, databases, payment processing, authentication, live booking infrastructure or other operational systems.
+
+The goal is to demonstrate the proposed future, not pretend it has already been delivered.
+
+---
+
+## 9. RESPONSIVE DESIGN AND PERFORMANCE
+
+The experience must be excellent on:
+
+- Desktop.
+- Laptop.
+- Tablet.
+- Mobile.
+
+Optimize 3D rendering, image loading, animation and scroll behavior.
+
+Use graceful static fallbacks where WebGL or device performance is insufficient.
+
+Avoid unnecessary dependencies.
+
+Maintain the existing framework and project architecture unless a change is genuinely necessary.
+
+---
+
+## 10. EXECUTION
+
+Work directly inside the existing project.
+
+First establish the current architecture and design opportunities, then execute the transformation.
+
+Do not stop after producing a design analysis or a plan.
+
+Implement the redesign.
+
+After implementation:
+
+1. Inspect every section.
+2. Test all existing and new interactions.
+3. Verify navigation.
+4. Check desktop and mobile layouts.
+5. Check loading and rendering behavior.
+6. Check accessibility and reduced-motion behavior.
+7. Remove visual inconsistencies.
+8. Ensure there are no broken assets or console errors.
+
+Deliver a cohesive, finished experience.
+
+**Final creative direction:**
+
+STILL WATERS meets luxury hospitality meets cinematic interactive storytelling.
+
+Quietly extraordinary. Architecturally beautiful. Technically impressive.
+
+The visitor should not feel that they are reading a proposal.
+
+They should feel that they have just experienced a glimpse of Joclarif's future.

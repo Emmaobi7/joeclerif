@@ -1,0 +1,87 @@
+## PROMPT 4 — FINAL DESIGN POLISH, QA AND DEPLOYMENT READINESS
+
+Perform a complete quality review of the Joclarif proposal microsite.
+
+This is a premium client-facing presentation, so visual quality and credibility matter enormously.
+
+### Visual review
+
+Inspect every section for:
+- Typography consistency.
+- Spacing.
+- Alignment.
+- Image quality.
+- Colour consistency.
+- Responsive behaviour.
+- Visual hierarchy.
+- Animation quality.
+- Navigation consistency.
+
+Remove anything that looks generic, unfinished or template-generated.
+
+### Responsive testing
+
+Test:
+- Large desktop.
+- Standard laptop.
+- Tablet.
+- Mobile phone.
+
+The mobile experience must be intentionally designed, not merely a compressed desktop layout.
+
+Check horizontal overflow, text wrapping, navigation, interactive controls and image cropping.
+
+### Functional testing
+
+Verify:
+- All navigation links work.
+- All interactive demonstrations work.
+- All buttons perform their advertised actions.
+- Forms validate required fields.
+- State updates correctly.
+- No broken routes or images exist.
+- No console errors remain.
+- No misleading real-booking or payment actions exist.
+
+### Content and credibility review
+
+Search the entire project for unsupported claims.
+
+Ensure:
+- No invented room prices.
+- No invented room availability.
+- No invented hotel facilities.
+- No invented integrations presented as completed.
+- No false claims of actual AI deployment.
+- No fabricated hotel endorsements.
+- No fabricated implementation timeline.
+
+Use explicit "Illustrative concept", "Proposed capability" or "Subject to operational discovery" labels where appropriate.
+
+### Performance and accessibility
+
+Check:
+- Image optimisation.
+- Loading performance.
+- Semantic HTML.
+- Keyboard navigation.
+- Accessible contrast.
+- Descriptive image alt text.
+- Reduced-motion preferences.
+- Appropriate metadata and page title.
+
+### Deployment readiness
+
+Prepare the application for hosting.
+
+Provide:
+1. Required environment variables.
+2. Build and start instructions.
+3. Deployment configuration.
+4. Any external service dependencies.
+5. A concise README.
+6. A final list of remaining placeholders.
+
+Do not deploy to a public Joclarif domain or represent the concept as an official hotel platform without explicit authorisation.
+
+The final output should be a polished, functional, self-contained proposal microsite ready for private demonstration.

@@ -1,0 +1,262 @@
+## PROMPT 2 — BUILD THE ONE-PAGE PROPOSAL
+
+Now implement the Joclarif Digital Hospitality Ecosystem proposal microsite.
+
+This must be ONE cohesive, scrollable page, not a collection of unrelated pages.
+
+The page should feel like a premium product presentation that a hotel owner can explore independently.
+
+### 1. Hero — Introduce the vision
+
+Brand: JOCLARIF
+
+Main headline:
+
+"One destination. Every stay."
+
+Supporting statement:
+
+"A connected hospitality experience bringing reservations, guest services and hotel operations into one intelligent digital ecosystem."
+
+Include:
+- Strong luxury hospitality photography.
+- A premium visual composition.
+- A clear explanation of the proposed transformation.
+- Navigation that scrolls to the relevant sections.
+- A subtle scroll indicator.
+
+Avoid claiming this is Joclarif's existing digital platform.
+
+### 2. The opportunity
+
+Present the business opportunity:
+
+- Establish an owned digital presence.
+- Create a direct reservation channel.
+- Simplify individual and group accommodation bookings.
+- Support events and hall reservations.
+- Improve communication with guests.
+- Connect guest experiences with hotel operations.
+- Build a foundation for international visitors.
+
+Make this section business-oriented rather than overly technical.
+
+### 3. The connected ecosystem
+
+Show the three primary environments:
+
+**Guest Web Experience**
+- Hotel discovery.
+- Rooms and facilities.
+- Individual and group reservations.
+- Event and hall enquiries.
+- International bookings.
+- Conversational booking.
+- Guest communication.
+
+**Guest Mobile Experience**
+- Reservations.
+- Trip and booking management.
+- Mobile concierge.
+- Push notifications.
+- Digital check-in.
+- Document capture.
+- In-stay services.
+
+**Hotel Management Environment**
+- Reservation management.
+- Room inventory.
+- Group allocations.
+- Event and hall management.
+- Payment tracking.
+- Guest communication.
+- Staff workflows.
+- Reporting and analytics.
+
+Make the relationship between these environments visually clear.
+
+### 4. Unified reservations
+
+Show how the platform supports:
+
+- Single reservations.
+- Family reservations.
+- Large group reservations.
+- Wedding accommodation.
+- Corporate and academic delegations.
+- International guests.
+- Event hall bookings.
+- Combined accommodation and event bookings.
+
+Explain parent reservations and individual room allocations.
+
+For example:
+
+A wedding organiser requests 15 rooms for family members and a hall for the same event.
+
+The system should support:
+- One parent group reservation.
+- Fifteen individual room allocations.
+- One event facility request.
+- A shared booking coordinator.
+- Consolidated billing.
+- Individual guest information.
+
+Use a clean visual diagram to communicate this.
+
+### 5. Conversational Booking Co-Pilot
+
+This is a major differentiator.
+
+Demonstrate how a guest can type:
+
+"I need 15 rooms for my family coming from Lagos for a wedding, plus a hall for November 25th."
+
+The assistant should:
+- Interpret the request.
+- Extract dates, quantities and booking types.
+- Identify missing information.
+- Ask follow-up questions.
+- Check room inventory through the booking engine.
+- Check hall availability.
+- Present suitable options.
+- Assemble a combined quotation.
+
+Important: AI interprets requests and coordinates deterministic booking services. It must never fabricate prices, availability or booking confirmations.
+
+Create an interactive prototype rather than merely describing the feature.
+
+### 6. AI Concierge and live human support
+
+Demonstrate:
+
+- 24/7 routine guest assistance.
+- Hotel information enquiries.
+- Facility information.
+- Room service enquiries.
+- Check-in/check-out questions.
+- Multilingual communication.
+- Human staff escalation.
+- Conversation assignment and tracking.
+
+Show a sample conversation where a French-speaking guest asks a question and the hotel employee sees its English translation.
+
+Show a second example where the AI transfers a complex airport transportation enquiry to a human employee.
+
+Do not claim a fixed percentage of enquiries will be automated.
+
+### 7. Digital check-in and guest identity
+
+Present a proposed digital check-in journey:
+
+1. Open an existing reservation.
+2. Give consent to identity processing.
+3. Capture a passport or supported identity document.
+4. Extract information using OCR.
+5. Allow the guest to review the extracted information.
+6. Submit for hotel verification.
+7. Update the check-in workflow.
+
+Explain that OCR extracts information but does not authenticate document genuineness.
+
+Mention privacy, consent, encryption, access controls and retention policies.
+
+### 8. Hotel operations
+
+Present the proposed hotel administration environment.
+
+Include illustrative interface previews for:
+- Reservation overview.
+- Room inventory.
+- Occupancy.
+- Housekeeping.
+- Maintenance.
+- Event facilities.
+- Payment records.
+- Guest communication.
+- Revenue and operational reports.
+
+These are concept interfaces, not connected operational systems.
+
+### 9. Integrations and architecture
+
+Explain the proposed technical architecture.
+
+Show a visually clear architecture diagram containing:
+
+Guest Web Application
+Guest Mobile Application
+Hotel Staff Interface
+
+↓
+
+Shared API and Application Services
+
+↓
+
+Core Modules:
+- Reservation Engine.
+- Room Inventory.
+- Event and Hall Management.
+- Guest Profiles.
+- Payment Services.
+- Messaging and Notifications.
+- AI Orchestration.
+- Identity Processing.
+- Reporting and Analytics.
+
+↓
+
+PostgreSQL Database and Secure File Storage.
+
+Potential external integrations:
+- Payment gateways.
+- Email.
+- SMS.
+- WhatsApp Business.
+- Maps and location services.
+- AI language services.
+- Push notifications.
+
+Clearly identify these as proposed integrations subject to technical discovery and provider availability.
+
+### 10. Implementation roadmap
+
+Show five proposed implementation phases:
+
+**Phase 1 — Digital Foundation**
+Website, room catalogue, reservations, payments and management foundation.
+
+**Phase 2 — Group and Event Intelligence**
+Family bookings, room blocks, hall bookings, combined reservations and international guest support.
+
+**Phase 3 — AI Guest Experience**
+Conversational booking, AI concierge, live-agent handoff and translation.
+
+**Phase 4 — Mobile and Digital Check-in**
+Guest mobile application, notifications, document capture and self-service.
+
+**Phase 5 — Operational Intelligence**
+Housekeeping, maintenance, advanced reporting and automation.
+
+Do not invent delivery dates or promise implementation timelines.
+
+### 11. Closing section
+
+Headline:
+
+"Let's shape the next chapter of Joclarif hospitality."
+
+Supporting message:
+
+"A proposed digital foundation designed to bring guests, reservations and hotel operations together."
+
+Include a clear invitation to discuss the concept and explore the next steps.
+
+Do not add pricing or a fabricated implementation contract.
+
+### Final requirement
+
+Every section must connect visually and narratively to the same product vision.
+
+The page should communicate both commercial value and engineering capability.

@@ -1,0 +1,94 @@
+## PROMPT 3 — MAKE THE DEMONSTRATIONS FEEL REAL
+
+Now focus on the interactive experiences.
+
+The purpose is to make the proposal tangible. A visitor should be able to interact with the proposed product instead of merely reading descriptions.
+
+Build the following demonstrations using local mock data and frontend state.
+
+### A. Conversational Booking Co-Pilot
+
+Create an interactive chat-like interface.
+
+Suggested initial prompt:
+
+"I need 15 rooms for my family coming from Lagos for a wedding, plus a hall for November 25th."
+
+The assistant should:
+- Parse the request.
+- Identify 15 rooms.
+- Identify a family group.
+- Identify a wedding event.
+- Identify the hall requirement.
+- Ask for the missing year and expected hall capacity.
+- Present a structured booking summary.
+- Allow the user to edit the requirements.
+- Show illustrative room and hall options.
+
+The UI should make it obvious how natural language becomes structured booking information.
+
+Use clearly labelled mock availability.
+
+### B. Group reservation visualisation
+
+Create an interactive group reservation summary showing:
+
+- Parent reservation.
+- Number of rooms.
+- Individual room allocations.
+- Guest coordinator.
+- Event facility.
+- Group payment summary.
+- Individual guest details.
+
+Allow the user to expand the reservation to see individual allocations.
+
+### C. AI Concierge
+
+Create a simulated guest conversation.
+
+Include:
+- A guest asking for Wi-Fi information.
+- An international guest asking a question in French.
+- An English translation visible to hotel staff.
+- An airport transportation enquiry.
+- A human-agent handoff state.
+
+Make the distinction between AI responses and human staff responses visible.
+
+### D. Digital check-in
+
+Create a simulated check-in interface.
+
+Show:
+- Reservation lookup.
+- Identity document capture placeholder.
+- OCR extraction preview.
+- Guest information review.
+- Verification status.
+
+Do not access a real camera or collect real identity documents in this mock proposal.
+
+### E. Hotel management dashboard
+
+Create an illustrative dashboard with:
+- Today's reservations.
+- Occupancy overview.
+- Pending group reservations.
+- Event enquiries.
+- Room status.
+- Outstanding payments.
+- Recent guest messages.
+
+Use believable demonstration data, clearly marked as illustrative.
+
+### Interaction requirements
+
+- Use reusable components.
+- Keep state local unless an existing backend is genuinely available.
+- Ensure all visible buttons have meaningful actions.
+- Avoid dead controls.
+- Do not imply any mock action has changed Joclarif's real hotel data.
+- Clearly label simulated features.
+
+The demonstrations should be polished, responsive and visually consistent with the overall luxury design system.
