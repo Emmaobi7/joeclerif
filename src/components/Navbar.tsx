@@ -76,14 +76,22 @@ export function Navbar() {
             ))}
           </nav>
 
-          {/* Sleek, Restrained CTA Pill */}
-          <div className="hidden sm:flex items-center gap-5">
+          {/* Sleek, Restrained CTA Pill & Intelligence Command Centre Entry */}
+          <div className="hidden sm:flex items-center gap-3">
+            <a
+              href="/intelligence"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-amber-glow/60 bg-amber-glow/15 backdrop-blur-md text-[10px] tracking-[0.24em] uppercase text-amber-glow hover:bg-amber-glow hover:text-shadow-darkest font-semibold shadow-glow transition-all"
+            >
+              <span className="w-1.5 h-1.5 rounded-full bg-amber-glow animate-pulse" />
+              <span>Intelligence</span>
+              <ArrowUpRight className="w-3 h-3" />
+            </a>
+
             <a
               href="#chapter-roadmap"
-              className="inline-flex items-center gap-2.5 px-5 py-2 rounded-full border border-champagne-200/25 bg-[#22160b]/30 backdrop-blur-sm text-[10px] tracking-[0.26em] uppercase text-champagne-200 hover:border-amber-glow hover:bg-amber-glow/10 hover:shadow-glow transition-all"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-champagne-200/25 bg-[#22160b]/30 backdrop-blur-sm text-[10px] tracking-[0.22em] uppercase text-champagne-200 hover:border-amber-glow hover:bg-amber-glow/10 transition-all"
             >
               <span>Executive Brief</span>
-              <ArrowUpRight className="w-3 h-3 text-amber-glow" />
             </a>
           </div>
 
@@ -115,7 +123,17 @@ export function Navbar() {
                   <span className="text-[10px] font-mono text-amber-glow/70">Chapter {link.num}</span>
                 </a>
               ))}
-              <div className="pt-4 border-t border-champagne-200/10">
+              <div className="pt-4 border-t border-champagne-200/10 space-y-3">
+                <a
+                  href="/intelligence"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="w-full flex items-center justify-center gap-2 px-6 py-3 rounded-full border border-amber-glow/60 bg-amber-glow/15 text-amber-glow font-semibold text-xs tracking-[0.2em] uppercase shadow-glow"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-amber-glow animate-pulse" />
+                  <span>EXPLORE J O C L A R I F INTELLIGENCE</span>
+                  <ArrowUpRight className="w-3.5 h-3.5" />
+                </a>
+
                 <a
                   href="#chapter-roadmap"
                   onClick={() => setMobileMenuOpen(false)}

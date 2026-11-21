@@ -1,0 +1,608 @@
+# J O C L A R I F — INTELLIGENCE
+## Prompt 02: Immersive Hotel Intelligence & Operations Command Centre
+
+### PROJECT CONTEXT
+
+We are extending the existing Joclarif luxury hotel proposal website.
+
+The existing project has an established visual identity called **STILL WATERS**, inspired by Charles Liu's luxury editorial aesthetic.
+
+The visual language includes:
+- Deep umber and dark brown backgrounds.
+- Pale champagne gold and glowing amber gold accents.
+- Cinematic lighting and atmospheric depth.
+- Refined typography and editorial composition.
+- Premium transitions and restrained interactions.
+- Immersive 3D experiences that feel intentional rather than decorative.
+
+The existing one-page presentation is already sufficiently populated.
+
+**DO NOT add the Intelligence experience as another section of the existing one-pager.**
+
+Instead, build a completely separate, dedicated page within the existing application.
+
+Suggested route: `/intelligence`
+
+Add a prominent, elegant entry point on the existing Joclarif homepage labelled:
+
+**EXPLORE J O C L A R I F INTELLIGENCE**
+
+This should navigate to the new page.
+
+The Intelligence page must have its own navigation, experience, layout and interactive components while retaining the overall Joclarif visual identity.
+
+---
+
+# 1. THE PRODUCT VISION
+
+Joclarif Intelligence is an intelligent hotel operations and business intelligence platform.
+
+It gives authorised hotel owners, general managers and departmental managers the ability to understand the state of hotel operations at any point in time.
+
+It should provide visibility into:
+
+1. Financial performance.
+2. Human resources and workforce.
+3. Equipment, assets and maintenance.
+4. Hotel operations.
+5. Guest experience and service delivery.
+6. Procurement, inventory and departmental performance.
+
+The central idea:
+
+**One intelligence layer. The entire hotel. Every important decision.**
+
+The platform must be designed to work with both legacy and modern data.
+
+The hotel may currently have:
+- Historical spreadsheets.
+- Scanned documents and paper records.
+- Financial reports.
+- Existing databases.
+- Staff records.
+- Maintenance logs.
+- Existing hotel management software.
+- New digital operational systems introduced over time.
+
+The intelligence layer should eventually unify these sources.
+
+For this proposal, use realistic simulated data. Do not claim that actual hotel integrations, databases or live connections exist.
+
+---
+
+# 2. THE VISUAL EXPERIENCE
+
+The page must feel like entering a private, intelligent hotel command centre.
+
+Do not build a generic SaaS dashboard.
+
+Do not simply place cards, tables and charts on a dark background.
+
+The experience should combine:
+
+- Luxury editorial design.
+- Cinematic spatial storytelling.
+- Interactive 3D environments.
+- Sophisticated operational visualisations.
+- Functional dashboard interactions.
+- Fluid transitions between different intelligence areas.
+
+Maintain the existing Joclarif design language.
+
+Use React Three Fiber / Three.js where appropriate, provided they fit the existing project architecture.
+
+Prioritise performance and graceful fallbacks.
+
+## Opening Experience
+
+When a visitor enters `/intelligence`, create a cinematic introduction.
+
+Visual direction:
+
+A dark, architectural environment inspired by a luxury hotel's interior at night.
+
+A sophisticated 3D representation of a hotel emerges from darkness.
+
+Subtle golden light travels through different parts of the structure, suggesting information moving across the hotel's departments.
+
+The environment should feel premium, intelligent and architectural.
+
+Display:
+
+J O C L A R I F
+INTELLIGENCE
+
+**The intelligence behind every operation.**
+
+Supporting text:
+
+"An integrated intelligence experience giving hotel ownership and management a clearer understanding of the business, its people, assets and performance."
+
+Primary interaction:
+
+**ENTER COMMAND CENTRE**
+
+On interaction, transition into the operational interface.
+
+Do not make the opening excessively long. Users should be able to enter the dashboard immediately.
+
+---
+
+# 3. THE HOTEL COMMAND CENTRE
+
+Create the main operational dashboard.
+
+### Executive overview
+
+Display a comprehensive snapshot of the hotel's current simulated operational state.
+
+Include:
+
+- Total revenue.
+- Operating expenses.
+- Estimated operating profit.
+- Occupancy rate.
+- Active guests.
+- Staff currently on duty.
+- Outstanding maintenance issues.
+- Pending supplier payments.
+
+Use believable simulated values and clearly identify the data as demonstration data.
+
+### Interactive operational overview
+
+Build an interactive 3D hotel representation.
+
+This is a central feature, not a decorative background.
+
+The hotel should be represented as an architectural 3D model with identifiable operational zones:
+
+- Guest rooms.
+- Reception and lobby.
+- Restaurant and kitchen.
+- Conference and event facilities.
+- Housekeeping.
+- Administration.
+- Engineering and maintenance.
+- Other relevant facilities.
+
+Each zone should be interactive.
+
+On hover:
+- Highlight the selected area.
+- Show its name.
+- Show a brief operational status.
+
+On click:
+- Open an information panel.
+- Display relevant simulated metrics.
+- Show outstanding issues.
+- Show departmental activity.
+- Provide a way to navigate to the relevant intelligence section.
+
+Example:
+
+Selecting the restaurant should reveal:
+- Department revenue.
+- Operating expenses.
+- Current inventory status.
+- Staff allocation.
+- Outstanding issues.
+
+The hotel model must look architectural and sophisticated, not like a cartoon building.
+
+If a complete 3D hotel model proves impractical, build a stylised, high-quality architectural cutaway with clearly separated floors and departments.
+
+---
+
+# 4. FINANCIAL INTELLIGENCE
+
+Create a dedicated financial intelligence workspace.
+
+It should provide:
+
+### Financial overview
+- Total revenue.
+- Operating expenses.
+- Net operating income.
+- Revenue by department.
+- Revenue trends.
+- Expense distribution.
+- Outstanding payments.
+- Supplier liabilities.
+
+### Interactive visualisations
+- Revenue over time.
+- Expense breakdown by department.
+- Revenue versus expenditure.
+- Departmental profitability.
+- Monthly performance comparisons.
+
+### Intelligence queries
+
+Provide clickable example questions:
+
+- How much revenue did we generate this month?
+- Which department has the highest operating expenses?
+- Compare this month's revenue with last month.
+- What are our outstanding supplier payments?
+- Which departments are performing below expectations?
+
+When a user selects a question, populate the AI assistant and display a simulated response supported by visible evidence.
+
+---
+
+# 5. HUMAN RESOURCE INTELLIGENCE
+
+Build a workforce intelligence workspace.
+
+Display:
+
+- Total employees.
+- Employees currently on duty.
+- Employees on leave.
+- Attendance statistics.
+- Departmental staff distribution.
+- Shift schedules.
+- Payroll expenditure.
+- Pending leave requests.
+- Workforce cost trends.
+
+Provide interactive employee and departmental views.
+
+Selecting a department should reveal its workforce composition, attendance and staffing information.
+
+Example queries:
+
+- How many employees are currently on duty?
+- Which department has the highest staffing cost?
+- Who is scheduled to work today?
+- Show outstanding leave requests.
+- Are there staffing shortages in any department?
+
+Do not expose sensitive employee information indiscriminately. The interface should demonstrate role-based access.
+
+---
+
+# 6. EQUIPMENT & ASSET INTELLIGENCE
+
+Create an equipment and asset management workspace.
+
+Display:
+
+- Total registered assets.
+- Assets in service.
+- Assets requiring maintenance.
+- Equipment currently out of service.
+- Maintenance expenditure.
+- Upcoming maintenance schedules.
+- Equipment age and condition.
+- Maintenance history.
+
+Include an interactive asset inventory.
+
+Each asset should have:
+- Asset name.
+- Department.
+- Asset identifier.
+- Condition.
+- Last maintenance date.
+- Next maintenance date.
+- Maintenance history.
+
+Allow users to select assets and inspect their details.
+
+Example queries:
+
+- Which equipment requires immediate maintenance?
+- What is our total maintenance expenditure?
+- Which assets have been out of service longest?
+- What maintenance is scheduled this week?
+
+Create a visual maintenance status indicator.
+
+---
+
+# 7. HOTEL OPERATIONS INTELLIGENCE
+
+Create an operational intelligence workspace covering:
+
+### Guest operations
+- Occupancy.
+- Reservations.
+- Check-in and check-out activity.
+- Room availability.
+- Guest requests.
+- Service response times.
+
+### Housekeeping
+- Rooms cleaned.
+- Rooms awaiting cleaning.
+- Rooms requiring inspection.
+- Housekeeping staff allocation.
+
+### Inventory and procurement
+- Stock levels.
+- Low-stock alerts.
+- Supplier information.
+- Pending purchase orders.
+- Procurement expenditure.
+
+### Departmental operations
+- Departmental performance.
+- Operational bottlenecks.
+- Outstanding tasks.
+- Reported incidents.
+
+Each category should have its own meaningful interactive view.
+
+---
+
+# 8. THE INTELLIGENCE ASSISTANT
+
+This is the heart of the experience.
+
+Create a sophisticated AI chat interface that allows authorised management personnel to ask questions about hotel operations in natural language.
+
+The interface should feel like a serious enterprise intelligence system, not a generic chatbot.
+
+### Interface requirements
+
+Include:
+
+- Conversation history.
+- Natural-language input.
+- Suggested questions.
+- Streaming-style response animation.
+- Evidence inspector.
+- Related records.
+- Source references.
+- Department context.
+- Query history.
+
+### Example interaction
+
+User:
+
+"Give me an overview of the hotel's operational performance this month."
+
+Simulated assistant response:
+
+"The hotel generated ₦48.6 million in revenue during the reporting period, with operating expenditure of ₦29.4 million.
+
+Occupancy averaged 76%.
+
+The restaurant recorded the highest departmental revenue, while engineering reported three outstanding maintenance issues.
+
+There are also five pending supplier payments."
+
+The response should include supporting evidence.
+
+### Evidence panel
+
+When the user clicks "View evidence", display the records behind the answer.
+
+Examples:
+- Financial transaction records.
+- Departmental reports.
+- Staff attendance records.
+- Maintenance logs.
+- Inventory records.
+- Historical documents.
+
+Clearly distinguish:
+- Verified records.
+- Derived calculations.
+- Historical documents.
+- Simulated demonstration data.
+- Missing or unavailable information.
+
+The assistant must never pretend to know something that is not present in its available data.
+
+If information is missing, explicitly say so.
+
+---
+
+# 9. DATA SOURCE INTELLIGENCE
+
+This feature is particularly important.
+
+The system must demonstrate that Joclarif can work with both legacy and modern hotel data.
+
+Create a Data Sources workspace.
+
+Display simulated connected sources such as:
+
+- Historical financial spreadsheets.
+- Staff records database.
+- Hotel operations database.
+- Maintenance records.
+- Inventory management records.
+- Guest management system.
+- Uploaded reports and documents.
+
+For each source display:
+
+- Source name.
+- Source type.
+- Department.
+- Last synchronisation.
+- Number of available records.
+- Connection status.
+- Data freshness.
+
+Include a visual data ingestion flow.
+
+Show how information from different sources enters the intelligence engine, gets organised and becomes available for analysis.
+
+Create an interactive source explorer.
+
+Selecting a source should reveal its metadata, sample records and data coverage.
+
+Importantly, the system should demonstrate that the intelligence layer can grow as the hotel digitises.
+
+---
+
+# 10. ROLE-BASED ACCESS
+
+Create a role selector for the demonstration.
+
+Available roles:
+
+**Owner**
+- Full business overview.
+- Financial intelligence.
+- HR intelligence.
+- Asset intelligence.
+- Operational intelligence.
+
+**General Manager**
+- Overall hotel operations.
+- Departmental performance.
+- Workforce overview.
+- Financial information according to assigned permissions.
+
+**HR Manager**
+- Employee records.
+- Attendance.
+- Shifts.
+- Payroll information according to permissions.
+
+**Operations Manager**
+- Departmental activities.
+- Guest operations.
+- Housekeeping.
+- Equipment and maintenance.
+- Inventory.
+
+The role selector should visibly change available sections and information.
+
+This is a simulated permission demonstration, not real authentication.
+
+The underlying production architecture must enforce permissions on data retrieval and AI responses, not merely hide dashboard elements.
+
+---
+
+# 11. ACTIVITY & AUDIT INTELLIGENCE
+
+Create an activity history workspace.
+
+Show a simulated record of:
+
+- Management queries.
+- Financial reports accessed.
+- Departmental reports generated.
+- Data source synchronisations.
+- Operational alerts.
+- Asset status changes.
+- Administrative activities.
+
+Include timestamps, users, departments and activity descriptions.
+
+Allow users to filter the activity history.
+
+---
+
+# 12. INTERACTION AND 3D REQUIREMENTS
+
+The entire experience must feel alive.
+
+Implement meaningful interactions:
+
+1. Cinematic opening transition.
+2. Interactive 3D hotel model.
+3. Clickable hotel departments.
+4. Animated financial visualisations.
+5. Interactive departmental views.
+6. Expandable evidence inspector.
+7. Functional AI query interface with simulated responses.
+8. Interactive data source explorer.
+9. Role switching demonstration.
+10. Interactive activity and audit history.
+11. Smooth page transitions.
+12. Subtle motion and hover responses.
+
+Use 3D strategically.
+
+Do not put unnecessary 3D objects everywhere.
+
+The 3D hotel representation should be the signature experience. Other areas can use elegant 2D data visualisations and subtle motion.
+
+On mobile, provide a responsive alternative to the full 3D model, such as an interactive departmental floor selector.
+
+---
+
+# 13. NAVIGATION
+
+The standalone page should have its own navigation:
+
+- Overview
+- Financials
+- People
+- Assets
+- Operations
+- Intelligence
+- Data Sources
+- Activity
+
+Include a role selector and a clear way to return to the Joclarif presentation homepage.
+
+Use a refined collapsible sidebar or similarly elegant navigation.
+
+Do not overcrowd the interface.
+
+---
+
+# 14. TECHNICAL REQUIREMENTS
+
+- Work within the existing Joclarif repository.
+- Inspect the current framework and component architecture before implementation.
+- Preserve all existing homepage functionality.
+- Do not rebuild or replace the existing one-pager.
+- Add the Intelligence experience as a separate route.
+- Reuse existing design tokens, typography and visual assets where appropriate.
+- Use React Three Fiber / Three.js for the interactive architectural experience if compatible.
+- Use suitable charting components for financial and operational analytics.
+- Make every visible control functional.
+- Use realistic, internally consistent simulated data.
+- Ensure the experience is responsive.
+- Implement sensible loading states and empty states.
+- Avoid unnecessary dependencies.
+- Optimise 3D assets, rendering and animation performance.
+- Provide graceful fallbacks where WebGL is unavailable.
+
+This is a hosted proposal demonstration.
+
+Do not implement actual hotel integrations, real authentication, production database connections or live financial transactions.
+
+However, design the interface and data architecture with the eventual production intelligence platform in mind.
+
+---
+
+# 15. QUALITY STANDARD
+
+The result should feel like a premium product that a serious hotel group could imagine adopting.
+
+It must not look like:
+- A generic admin template.
+- A standard Bootstrap dashboard.
+- A static Figma-style mockup.
+- A chatbot placed beside ordinary charts.
+- A game disguised as a business platform.
+
+It should feel like a sophisticated hotel intelligence environment.
+
+The first 10 seconds should communicate the quality of the experience.
+
+The next 2 minutes should demonstrate its business value.
+
+The user should be able to explore the hotel, inspect its departments, query its intelligence assistant, examine evidence, switch roles and understand the operational picture.
+
+**Final creative direction:**
+
+Joclarif is not simply presenting a digital hotel.
+
+It is presenting a hotel that can understand itself.
+
+**J O C L A R I F INTELLIGENCE**
+*See the entire operation. Understand what matters. Make better decisions.*

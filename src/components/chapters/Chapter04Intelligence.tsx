@@ -496,6 +496,35 @@ export function Chapter04Intelligence() {
             </div>
           </div>
         )}
+
+        {/* Dedicated Standalone Intelligence Command Centre Invitation Banner */}
+        <div className="mt-12 p-8 rounded-2xl border border-amber-glow/40 bg-gradient-to-r from-shadow-darkest via-[#1c120a] to-shadow-darkest shadow-luxury flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+          <div className="space-y-2 max-w-2xl">
+            <div className="flex items-center gap-2">
+              <span className="text-[10px] font-mono tracking-widest uppercase text-amber-glow px-2.5 py-0.5 rounded bg-amber-glow/15 border border-amber-glow/30">
+                Standalone Executive Platform
+              </span>
+              <span className="text-xs font-mono text-champagne-300/60">
+                Interactive 3D Topology &bull; 8 Workspaces
+              </span>
+            </div>
+            <h3 className="text-2xl sm:text-3xl font-serif text-champagne-100 font-light">
+              Enter Joclarif Hotel Intelligence Command Centre
+            </h3>
+            <p className="text-xs sm:text-sm text-ivory-warm/75 leading-relaxed">
+              Explore the dedicated operations platform with real-time 3D architectural cutaways, multi-source ingestion
+              of legacy spreadsheets and IoT sensors, and verifiable natural language AI audits.
+            </p>
+          </div>
+
+          <a
+            href="/intelligence"
+            className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-amber-glow to-amber-deep text-shadow-darkest font-semibold text-xs tracking-[0.24em] uppercase shadow-glow hover:opacity-95 hover:scale-[1.02] transition-all shrink-0"
+          >
+            <span>EXPLORE J O C L A R I F INTELLIGENCE</span>
+            <ArrowRight className="w-4 h-4" />
+          </a>
+        </div>
       </div>
     </section>
   );

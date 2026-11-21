@@ -146,18 +146,25 @@ export function Chapter01Vision() {
 
               <div className="flex flex-wrap items-center gap-3">
                 <a
+                  href="/intelligence"
+                  className="inline-flex items-center gap-2.5 px-6 py-3 rounded-full border border-amber-glow/70 bg-amber-glow/15 backdrop-blur-md text-amber-glow text-[10px] tracking-[0.24em] uppercase font-semibold shadow-glow hover:bg-amber-glow hover:text-shadow-darkest transition-all"
+                >
+                  <Sparkles className="w-3.5 h-3.5" />
+                  <span>EXPLORE J O C L A R I F INTELLIGENCE</span>
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </a>
+                <a
                   href="#chapter-mobile"
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-amber-glow to-amber-deep text-shadow-darkest text-[10px] tracking-[0.24em] uppercase font-semibold shadow-glow hover:opacity-95 transition-all"
+                  className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-amber-glow to-amber-deep text-shadow-darkest text-[10px] tracking-[0.22em] uppercase font-semibold shadow-glow hover:opacity-95 transition-all"
                 >
                   <Smartphone className="w-3.5 h-3.5" />
-                  <span>Explore Mobile App</span>
-                  <span>&rarr;</span>
+                  <span>Mobile App</span>
                 </a>
                 <a
                   href="#chapter-ecosystem"
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-champagne-200/30 bg-shadow-main/30 backdrop-blur-md text-champagne-200 text-[10px] tracking-[0.22em] uppercase hover:border-amber-glow hover:bg-amber-glow/10 transition-all font-mono"
+                  className="inline-flex items-center gap-2 px-5 py-3 rounded-full border border-champagne-200/30 bg-shadow-main/30 backdrop-blur-md text-champagne-200 text-[10px] tracking-[0.2em] uppercase hover:border-amber-glow hover:bg-amber-glow/10 transition-all font-mono"
                 >
-                  <span>Web Platform</span>
+                  <span>Web Ecosystem</span>
                 </a>
               </div>
             </div>
