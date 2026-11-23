@@ -15,15 +15,14 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Dual-Platform Presentation Chapters & Mobility
+  // Curated Proposal Chapters
   const navLinks = [
     { num: "01", label: "Vision", href: "#chapter-vision" },
-    { num: "02", label: "Mobile App", href: "#chapter-mobile" },
+    { num: "02", label: "Mobile", href: "#chapter-mobile" },
     { num: "03", label: "Ecosystem", href: "#chapter-ecosystem" },
     { num: "04", label: "Mobility", href: "#chapter-mobility" },
     { num: "05", label: "Experience", href: "#chapter-demos" },
-    { num: "06", label: "Intelligence", href: "#chapter-intelligence" },
-    { num: "07", label: "Roadmap", href: "#chapter-roadmap" },
+    { num: "06", label: "Intelligence", href: "/intelligence" },
   ];
 
   return (
@@ -77,30 +76,14 @@ export function Navbar() {
             ))}
           </nav>
 
-          {/* Sleek, Restrained CTA Pill & Direct Platform Links (Intelligence & Business Case) */}
-          <div className="hidden sm:flex items-center gap-2.5">
-            <a
-              href="/intelligence"
-              className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-amber-glow/60 bg-amber-glow/15 backdrop-blur-md text-[10px] tracking-[0.22em] uppercase text-amber-glow hover:bg-amber-glow hover:text-shadow-darkest font-semibold shadow-glow transition-all"
-            >
-              <span className="w-1.5 h-1.5 rounded-full bg-amber-glow animate-pulse" />
-              <span>Intelligence</span>
-              <ArrowUpRight className="w-3 h-3" />
-            </a>
-
+          {/* Restrained Luxury CTA Pill */}
+          <div className="hidden sm:flex items-center">
             <a
               href="/investment"
-              className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-champagne-200/40 bg-[#22160b]/60 backdrop-blur-md text-[10px] tracking-[0.22em] uppercase text-champagne-100 hover:border-amber-glow hover:bg-amber-glow/20 hover:text-amber-glow font-medium transition-all"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-champagne-200/30 bg-[#22160b]/40 backdrop-blur-md text-[10px] tracking-[0.24em] uppercase text-champagne-100 hover:border-amber-glow hover:text-amber-glow transition-all"
             >
               <span>The Business Case</span>
-              <ArrowUpRight className="w-3 h-3" />
-            </a>
-
-            <a
-              href="#chapter-roadmap"
-              className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-champagne-200/20 bg-shadow-darkest/60 backdrop-blur-sm text-[10px] tracking-[0.2em] uppercase text-champagne-200/80 hover:border-amber-glow hover:text-white transition-all"
-            >
-              <span>Executive Brief</span>
+              <ArrowUpRight className="w-3 h-3 text-amber-glow" />
             </a>
           </div>
 
@@ -134,31 +117,20 @@ export function Navbar() {
               ))}
               <div className="pt-4 border-t border-champagne-200/10 space-y-2.5">
                 <a
-                  href="/intelligence"
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="w-full flex items-center justify-center gap-2 px-6 py-3 rounded-full border border-amber-glow/60 bg-amber-glow/15 text-amber-glow font-semibold text-xs tracking-[0.2em] uppercase shadow-glow"
-                >
-                  <span className="w-1.5 h-1.5 rounded-full bg-amber-glow animate-pulse" />
-                  <span>EXPLORE J O C L A R I F INTELLIGENCE</span>
-                  <ArrowUpRight className="w-3.5 h-3.5" />
-                </a>
-
-                <a
                   href="/investment"
                   onClick={() => setMobileMenuOpen(false)}
-                  className="w-full flex items-center justify-center gap-2 px-6 py-3 rounded-full border border-champagne-200/35 bg-[#22160b]/50 text-champagne-200 font-semibold text-xs tracking-[0.2em] uppercase hover:border-amber-glow hover:text-amber-glow transition-all"
+                  className="w-full flex items-center justify-center gap-2 px-6 py-3 rounded-full border border-champagne-200/35 bg-[#22160b]/60 text-champagne-100 font-semibold text-xs tracking-[0.2em] uppercase hover:border-amber-glow hover:text-amber-glow transition-all"
                 >
                   <span>THE BUSINESS CASE (COMMERCIAL ROI)</span>
-                  <ArrowUpRight className="w-3.5 h-3.5" />
+                  <ArrowUpRight className="w-3.5 h-3.5 text-amber-glow" />
                 </a>
 
                 <a
                   href="#chapter-roadmap"
                   onClick={() => setMobileMenuOpen(false)}
-                  className="w-full flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-amber-glow to-amber-deep text-shadow-darkest font-semibold text-xs tracking-[0.2em] uppercase"
+                  className="w-full flex items-center justify-center gap-2 px-6 py-3 rounded-full border border-champagne-200/20 bg-shadow-darkest text-champagne-200/80 font-medium text-xs tracking-[0.2em] uppercase"
                 >
-                  <span>Executive Consultation</span>
-                  <ArrowUpRight className="w-3.5 h-3.5" />
+                  <span>Executive Brief &amp; Roadmap</span>
                 </a>
               </div>
             </nav>

@@ -18,14 +18,9 @@ export function InvestmentNavbar() {
 
   const navSections = [
     { label: "Revenue Engines", href: "#section-engines" },
-    { label: "Audience & Ads", href: "#section-audience" },
-    { label: "Workforce", href: "#section-workforce" },
-    { label: "Protection", href: "#section-protection" },
-    { label: "Positioning", href: "#section-positioning" },
-    { label: "Expansion", href: "#section-expansion" },
+    { label: "Workforce & Audit", href: "#section-workforce" },
+    { label: "Regional Growth", href: "#section-expansion" },
     { label: "Commercial Model", href: "#section-model" },
-    { label: "ROI Simulator", href: "#section-calculator" },
-    { label: "Governance", href: "#section-governance" },
   ];
 
   return (
@@ -71,8 +66,8 @@ export function InvestmentNavbar() {
             ))}
           </nav>
 
-          {/* Direct Portals & Action Pills */}
-          <div className="hidden sm:flex items-center gap-3">
+          {/* Single Restrained Action Pill */}
+          <div className="hidden sm:flex items-center">
             <a
               href="#section-calculator"
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-amber-glow/60 bg-amber-glow/15 backdrop-blur-md text-[10px] tracking-[0.22em] uppercase text-amber-glow hover:bg-amber-glow hover:text-shadow-darkest font-semibold shadow-glow transition-all"
@@ -80,14 +75,6 @@ export function InvestmentNavbar() {
               <TrendingUp className="w-3 h-3" />
               <span>Interactive ROI</span>
             </a>
-
-            <Link
-              href="/intelligence"
-              className="inline-flex items-center gap-1.5 px-3 py-2 rounded-full border border-champagne-200/20 bg-shadow-darkest/60 backdrop-blur-sm text-[10px] tracking-[0.2em] uppercase text-champagne-200/70 hover:border-amber-glow hover:text-white transition-all font-mono"
-            >
-              <span>Intelligence</span>
-              <ArrowUpRight className="w-3 h-3" />
-            </Link>
           </div>
 
           {/* Mobile Menu Icon */}
