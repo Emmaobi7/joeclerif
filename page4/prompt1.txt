@@ -1,0 +1,817 @@
+# J O C L A R I F — THE BUSINESS CASE
+## Executive ROI, Commercial Strategy & Growth Opportunity
+
+Build the final major page of the existing Joclarif proposal microsite.
+
+**Route:** `/investment`
+
+This page must explain the commercial opportunity behind the entire Joclarif ecosystem.
+
+It is not simply a software pricing page. It is an executive-level business case showing how Joclarif can help the hotel:
+
+- Generate additional revenue.
+- Monetise existing customer demand more effectively.
+- Build new revenue channels.
+- Reduce repetitive human workload and operating expenses.
+- Earn commissions from additional services and approved marketplace transactions.
+- Build a recognisable hospitality brand across cities and states.
+- Attract premium clients and high-value corporate relationships.
+- Use its growing digital audience to create additional commercial opportunities.
+- Make better decisions using operational and financial intelligence.
+
+**IMPORTANT COMMERCIAL PRESENTATION RULE:**
+
+Do not mention, display, calculate, suggest, or invent any project investment price, implementation budget, contract value, or proposed project amount anywhere on this page.
+
+The commercial investment discussion will be presented separately.
+
+Do not invent actual hotel financial performance, customer counts, market share, competitor statistics, or guaranteed returns.
+
+All financial assumptions must be editable and visibly identified as illustrative.
+
+---
+
+# 1. THE OPENING — A BIGGER BUSINESS OPPORTUNITY
+
+Create a cinematic opening.
+
+**Eyebrow:** THE BUSINESS CASE
+
+**Headline:**
+
+# More than a hotel. An expanding hospitality business.
+
+**Supporting copy:**
+
+Joclarif is designed to connect hospitality, guest experiences, commercial services, intelligent operations, and new digital revenue opportunities into one coordinated ecosystem.
+
+The opportunity is not simply to fill more rooms.
+
+It is to create more value from every guest relationship, every service offered, every operational decision, and every new market the brand enters.
+
+Show an elegant architectural hotel transitioning into a sophisticated digital ecosystem visualization.
+
+Animate golden connections between:
+- Hotel accommodation.
+- Events and weddings.
+- Guest experiences.
+- Car hire and mobility.
+- Companion discovery and coordination.
+- Hospitality services.
+- Hotel operations.
+- Business intelligence.
+- Regional commercial networks.
+
+The visual should communicate that the hotel is evolving from a traditional hospitality operation into a connected hospitality brand.
+
+---
+
+# 2. THE REVENUE ENGINES
+
+This is one of the most important sections.
+
+Show how the ecosystem can generate revenue through several distinct channels.
+
+Use interactive cards or an animated commercial ecosystem. Selecting each revenue engine should reveal its business model and how it contributes to the hotel.
+
+## ENGINE 01 — CORE HOSPITALITY REVENUE
+
+The hotel's existing foundation.
+
+Capabilities:
+- Direct room reservations.
+- Premium digital guest experience.
+- Wedding bookings.
+- Conference and event reservations.
+- Hall rentals.
+- Group bookings.
+- Corporate accommodation.
+- Guest service requests.
+- Additional hospitality offerings.
+
+Commercial opportunities:
+- Improve enquiry-to-booking conversion.
+- Capture more direct bookings.
+- Reduce dependence on third-party booking intermediaries where possible.
+- Increase additional service purchases.
+- Build repeat guest relationships.
+- Capture event and corporate business more consistently.
+
+Do not assume the hotel has poor occupancy. The strategy is to maximise the commercial value of existing demand and improve the quality of revenue.
+
+## ENGINE 02 — CAR HIRE & MOBILITY
+
+Introduce a dedicated car hire service into the main guest experience.
+
+This should feel like a natural extension of hospitality.
+
+Capabilities:
+- Airport pickup and drop-off.
+- Chauffeur-driven vehicles.
+- Self-drive options, where legally and operationally supported.
+- Executive transport.
+- Hourly and daily vehicle bookings.
+- Event transportation.
+- Intercity travel requests.
+- Vehicle availability and booking coordination.
+
+Commercial models:
+- Hotel-owned fleet revenue.
+- Commission on bookings fulfilled by approved third-party vehicle operators.
+- Corporate transportation agreements.
+- Airport transfer packages.
+- Bundled accommodation and transportation packages.
+
+Show how a guest can reserve a room, arrange airport pickup, and book transportation through one coordinated experience.
+
+Do not assume the hotel owns vehicles. Support both owned-fleet and partner-operated models.
+
+## ENGINE 03 — J O C L A R I F COMPANION
+
+Present the Companion product as a separately governed, private digital service.
+
+Its lawful scope must be adult social companionship, introductions, and coordination for activities such as dining, events, and social outings. It must not facilitate prostitution, sexual services, trafficking, coercion, exploitation, or unlawful activity.
+
+Show the hybrid marketplace model:
+
+- Individuals manage their own profiles.
+- Joclarif verifies identity and age.
+- Joclarif approves profiles before activation.
+- Only approved profiles can be discovered or receive requests.
+- Guests can browse, request introductions, and coordinate lawful bookings.
+- Companions retain control over availability, acceptance, boundaries, and visibility.
+
+### Companion monetisation models
+
+Demonstrate several potential revenue streams:
+
+**A. Booking commission**
+
+Joclarif earns an agreed platform commission on eligible, completed, lawful bookings.
+
+**B. Premium membership**
+
+Optional paid membership for additional lawful platform features, enhanced profile tools, availability management, or business analytics.
+
+**C. Professional visibility**
+
+Optional paid promotional placement for approved profiles, with transparent labelling and fair discovery rules.
+
+**D. Partner services**
+
+Potential commercial partnerships for lawful experiences, transportation, events, and hospitality services.
+
+Make it clear that these are proposed business models, not established revenue.
+
+### Scale and network effects
+
+Show why the marketplace could become commercially more valuable as it grows.
+
+More approved participants can improve choice and availability.
+
+More guests can attract more approved participants.
+
+More completed transactions can create recurring platform revenue.
+
+More activity across locations can support expansion into additional cities and states.
+
+Demonstrate the potential for a city-by-city network rather than presenting it as a single-hotel feature.
+
+Do not imply that every profile or booking automatically generates income.
+
+Do not include Companion revenue in the guaranteed or default ROI scenario.
+
+All real-world operation requires appropriate legal, safeguarding, privacy, payment, and platform compliance review.
+
+## ENGINE 04 — PREMIUM CONCIERGE & EXECUTIVE SERVICES
+
+Introduce a premium hospitality proposition for executives, dignitaries, business travellers, public figures, and other high-profile guests.
+
+The positioning should be:
+
+**Exceptional hospitality. Personalised service. Respect for privacy.**
+
+Potential offerings:
+- Private booking assistance.
+- Executive airport transfers.
+- Dedicated guest concierge.
+- Private event arrangements.
+- Discreet dining and hospitality coordination.
+- Approved transportation partners.
+- Tailored corporate accommodation.
+- Personalised guest preferences.
+- Dedicated account management for corporate clients.
+
+Explain the commercial opportunity:
+- Higher-value bookings.
+- Corporate and executive relationships.
+- Repeat business.
+- Premium service packages.
+- Corporate account agreements.
+- Referral relationships.
+- Stronger brand reputation.
+
+### Privacy as a competitive advantage
+
+High-profile clients may value privacy and discretion.
+
+Demonstrate how the product can offer:
+- Restricted access to sensitive guest information.
+- Minimal staff exposure to private guest details.
+- Role-based access.
+- Private booking preferences.
+- Secure communication.
+- Appropriate identity and access controls.
+- Clear privacy policies and auditability.
+
+Never promise absolute anonymity or immunity from lawful disclosure.
+
+Do not design secrecy features to evade hotel policies, law enforcement, safeguarding responsibilities, or legal obligations.
+
+The commercial positioning is premium privacy-conscious hospitality, not concealment of unlawful activity.
+
+---
+
+# 3. THE GROWING DIGITAL AUDIENCE — ADVERTISING & PARTNERSHIP REVENUE
+
+Create a section titled:
+
+# When the audience grows, the opportunities grow with it.
+
+Explain that a growing Joclarif digital ecosystem may create opportunities beyond direct hotel transactions.
+
+Potential monetisation channels:
+
+**A. Sponsored placements**
+
+Carefully selected businesses can sponsor relevant placements within appropriate areas of the platform.
+
+Examples:
+- Car hire operators.
+- Airport transfer providers.
+- Restaurants.
+- Event venues.
+- Local attractions.
+- Premium experiences.
+- Travel and hospitality partners.
+
+**B. Featured partners**
+
+Approved businesses may pay for enhanced visibility in relevant discovery areas.
+
+**C. Sponsored campaigns**
+
+Brands can sponsor:
+- Seasonal hospitality campaigns.
+- Event promotions.
+- Destination experiences.
+- Corporate travel offers.
+- Regional tourism campaigns.
+
+**D. Partnership commissions**
+
+Joclarif may earn referral or transaction commissions from approved service partners.
+
+### Advertising strategy
+
+Explain the commercial potential at different stages:
+
+**Early stage**
+- Focus on hotel services and trusted partners.
+- Prioritise guest experience over advertising revenue.
+
+**Growing platform**
+- Introduce carefully selected sponsored placements.
+- Develop partner packages.
+- Build regional commercial relationships.
+
+**Multi-city ecosystem**
+- Offer city-specific campaigns.
+- Create regional partner networks.
+- Sell carefully targeted sponsorship opportunities.
+- Build a broader hospitality advertising proposition.
+
+Do not assume large user numbers or guaranteed advertiser demand.
+
+Do not sell sensitive guest, companion, identity, booking, or private behavioural data.
+
+Advertising must be consent-aware, relevant, appropriately labelled, and separate from private communications and sensitive service experiences.
+
+The objective is to monetise the commercial reach of the platform without compromising the premium brand.
+
+---
+
+# 4. THE WORKFORCE EFFICIENCY OPPORTUNITY
+
+This section must be financially meaningful.
+
+**Headline:**
+
+# Less repetitive work. More productive operations.
+
+Explain that Joclarif is not simply adding technology to existing workflows. It is creating opportunities to automate repetitive processes, reduce manual administration, and allow the business to operate more efficiently.
+
+Show the before-and-after operational comparison.
+
+### Processes that can be streamlined
+
+**Reservations**
+- Automated enquiry capture.
+- Booking assistance.
+- Reservation status updates.
+- Guest communication.
+- Booking record management.
+
+**Front desk**
+- Digital guest information collection.
+- Pre-arrival workflows.
+- Check-in support.
+- Guest request coordination.
+
+**Housekeeping**
+- Room status visibility.
+- Task assignment.
+- Room readiness updates.
+- Maintenance escalation.
+
+**Human resources**
+- Attendance tracking.
+- Shift visibility.
+- Leave management.
+- Staff reporting.
+- Workforce allocation.
+
+**Finance and administration**
+- Financial reporting.
+- Payment reconciliation support.
+- Outstanding payment visibility.
+- Automated summaries.
+- Evidence retrieval.
+
+**Management**
+- Operational reports.
+- Departmental performance visibility.
+- AI-assisted information retrieval.
+- Exception and anomaly identification.
+
+### Financial impact
+
+Introduce an interactive workforce efficiency calculator.
+
+Inputs:
+- Number of staff in relevant administrative and operational roles.
+- Average monthly fully loaded employment cost.
+- Estimated repetitive administrative hours per person.
+- Estimated percentage of repetitive work that can be automated or streamlined.
+- Estimated hours that can be productively redeployed.
+- Actual reduction in overtime or temporary labour costs, where evidenced.
+
+Outputs:
+- Administrative hours recovered per month.
+- Equivalent productive capacity recovered.
+- Potential reduction in overtime or temporary labour expense.
+- Potential reduction in administrative workload.
+- Estimated annual operating-cost impact.
+
+IMPORTANT:
+
+Do not assume that every recovered hour becomes a salary saving.
+
+Show two separate outcomes:
+
+1. **Capacity released:** Staff spend less time on repetitive work and more time on guest service, supervision, and revenue-generating responsibilities.
+2. **Cash savings:** Actual reductions in overtime, temporary staffing, outsourced administration, or other measurable expenses.
+
+If workforce reductions are considered by management, present them as a separate organisational decision requiring operational and legal review.
+
+Do not promise mass layoffs or arbitrary headcount reduction.
+
+The stronger proposition is a hotel that can support more activity and better service without needing administrative workload to grow at the same rate.
+
+---
+
+# 5. J O C L A R I F INTELLIGENCE — PROTECTING THE BUSINESS
+
+Create a dedicated section showing how the intelligence platform can protect revenue and improve management oversight.
+
+**Headline:**
+
+# The business should know where its money goes.
+
+Show the intelligence cockpit as a connected management layer.
+
+Capabilities:
+- Financial performance.
+- Revenue by department.
+- Booking and payment reconciliation.
+- Outstanding liabilities.
+- Procurement and inventory.
+- Staff attendance and payroll visibility.
+- Asset condition.
+- Maintenance history.
+- Operational incidents.
+- Historical document retrieval.
+- Evidence-backed AI questions.
+
+Explain specific opportunities:
+
+**Revenue leakage**
+Identify discrepancies between reservations, payments, recorded services, and reported revenue.
+
+**Procurement leakage**
+Compare purchasing, stock movements, supplier records, and inventory usage.
+
+**Workforce inefficiency**
+Understand staffing levels, attendance, shifts, overtime, and workload distribution.
+
+**Maintenance costs**
+Identify recurring equipment problems and opportunities for preventative maintenance.
+
+**Management time**
+Reduce time spent searching old reports, manually preparing summaries, and asking multiple departments for the same information.
+
+The AI must provide traceable evidence and distinguish verified records, calculations, historical documents, simulated data, and missing information.
+
+Do not claim the intelligence engine automatically prevents fraud or guarantees financial recovery.
+
+---
+
+# 6. COMPETITIVE POSITIONING — WHY J O C L A R I F IS DIFFERENT
+
+**Headline:**
+
+# Not another hotel website. A connected hospitality ecosystem.
+
+This section should position Joclarif against relevant market alternatives.
+
+Do not invent named competitor capabilities, market share, prices, or performance claims.
+
+Instead, create an interactive comparison across categories:
+
+1. Traditional hotel websites.
+2. Online travel agencies and booking platforms.
+3. Conventional hotel management systems.
+4. Standalone concierge and service apps.
+5. Individual car hire and transportation marketplaces.
+6. General-purpose AI assistants.
+7. Integrated hospitality technology ecosystems.
+
+Compare the categories across:
+- Guest acquisition.
+- Direct reservations.
+- Event and wedding enquiries.
+- Car hire coordination.
+- Guest service.
+- Operational visibility.
+- Historical data intelligence.
+- Financial oversight.
+- Workforce efficiency.
+- Additional marketplace revenue.
+- Multi-city scalability.
+
+### Joclarif's differentiation
+
+Emphasise the proposed integration of:
+
+- Digital guest experience.
+- Direct commercial channels.
+- Hotel operations.
+- AI-powered intelligence.
+- Car hire and partner services.
+- Optional companion discovery and coordination.
+- Regional expansion opportunities.
+
+The differentiator is the connection between these capabilities.
+
+Avoid claiming that no competitor offers these features individually.
+
+Position Joclarif as a broader, connected hospitality strategy rather than a direct replacement for every specialised product.
+
+---
+
+# 7. FROM ONE HOTEL TO A REGIONAL NETWORK
+
+Create an interactive expansion visualization.
+
+**Headline:**
+
+# Built for one property. Designed to reach beyond it.
+
+Show a staged growth strategy.
+
+### Stage 1 — Establish the flagship
+
+- Digital transformation of the existing hotel.
+- Direct guest experience.
+- Reservations and events.
+- Car hire coordination.
+- Operational digitisation.
+- Intelligence and management visibility.
+
+### Stage 2 — Build the local ecosystem
+
+- Approved local transportation partners.
+- Restaurants and hospitality partners.
+- Event and experience providers.
+- Corporate relationships.
+- Premium concierge services.
+- A growing approved Companion network, if legally approved.
+
+### Stage 3 — Expand across cities and states
+
+- Additional hotel properties.
+- Regional partner networks.
+- City-specific transportation services.
+- Corporate travel relationships.
+- Regional advertising opportunities.
+- Expanded service discovery.
+- A larger network of approved platform participants.
+
+### Stage 4 — Become a recognised hospitality platform
+
+- Multi-property management visibility.
+- Regional commercial partnerships.
+- Cross-city guest services.
+- Network-wide reporting.
+- Partner monetisation.
+- A recognisable hospitality brand.
+
+Use a beautiful interactive Nigeria map with selectable cities and states.
+
+Use hypothetical expansion locations only as illustrative examples, not as claimed existing operations or confirmed partnerships.
+
+Show the potential relationship between:
+- Local demand.
+- Available partners.
+- Approved service providers.
+- Guest activity.
+- Revenue opportunities.
+
+Explain the network effect: each additional market can strengthen the value of the overall ecosystem if supply, demand, trust, and service quality grow together.
+
+---
+
+# 8. THE COMMERCIAL MODEL — WHERE J O C L A R I F EARNS
+
+Build an elegant revenue-model matrix.
+
+Show these potential revenue streams separately:
+
+| Revenue stream | Proposed model |
+|---|---|
+| Hotel accommodation | Direct room revenue |
+| Weddings and events | Booking and service revenue |
+| Car hire | Fleet revenue or partner commission |
+| Companion | Commission on eligible lawful completed bookings |
+| Premium memberships | Recurring subscription revenue |
+| Featured partners | Paid promotional placement |
+| Advertising | Sponsored campaigns and placements |
+| Corporate hospitality | Contracted service revenue |
+| Concierge services | Premium service fees |
+| Partner referrals | Referral or transaction commissions |
+
+For each stream, show:
+- Who pays.
+- What value they receive.
+- How Joclarif earns.
+- Whether revenue is recurring or transaction-based.
+- Whether the revenue depends on third-party partners.
+- Key compliance or operational dependencies.
+
+Make clear which revenues belong to the hotel, which belong to Joclarif as platform operator, and which are shared or commission-based depending on the eventual commercial agreement.
+
+Do not assume all revenue streams automatically accrue to the hotel.
+
+The business ownership and revenue-sharing arrangements must be established contractually.
+
+---
+
+# 9. INTERACTIVE FINANCIAL MODEL — THE ROI CALCULATOR
+
+**Headline:**
+
+# What could this ecosystem return?
+
+Build a functional calculator that allows the hotel owner to explore financial scenarios using editable assumptions.
+
+Do not include any preset project price or proposed investment amount.
+
+The initial investment field must be empty and require the presenter to enter an amount during a later commercial discussion.
+
+Do not display any suggested project budget.
+
+### Revenue inputs
+
+**Core hospitality**
+- Annual eligible booking revenue.
+- Estimated direct-channel improvement.
+- Commission rate avoided on bookings shifted from third-party channels.
+- Additional monthly event bookings.
+- Contribution profit per event booking.
+
+**Car hire**
+- Monthly completed car hire transactions.
+- Average transaction value.
+- Hotel-owned fleet share versus partner-operated share.
+- Commission or margin per eligible transaction.
+- Estimated monthly contribution profit.
+
+**Companion**
+- Monthly eligible completed bookings.
+- Average lawful booking value.
+- Platform commission rate.
+- Monthly premium memberships.
+- Membership fee.
+- Eligible partner referrals.
+
+Companion inputs must be disabled or excluded from the default base-case scenario until legal and operational approval is established. Provide a clearly labelled optional scenario to model this business separately.
+
+**Advertising and partnerships**
+- Monthly sponsored campaigns.
+- Average sponsorship fee.
+- Featured partner placements.
+- Partner referral contribution.
+
+**Executive and corporate services**
+- Monthly corporate bookings.
+- Additional premium services.
+- Average contribution profit per booking.
+
+### Operating savings inputs
+
+- Monthly administrative hours recovered.
+- Fully loaded staff hourly cost.
+- Monthly overtime reduction.
+- Monthly temporary labour reduction.
+- Monthly inventory loss reduction.
+- Monthly maintenance savings.
+- Monthly payment reconciliation improvement.
+
+Distinguish capacity recovered from actual cash savings.
+
+### Cost inputs
+
+- Initial project investment: blank editable input, no preset value.
+- Monthly software and infrastructure costs.
+- Monthly support and maintenance costs.
+- Monthly advertising and customer acquisition expenses.
+- Partner operating expenses.
+- Additional platform administration expenses.
+
+### Financial calculations
+
+Calculate:
+
+- Total monthly revenue contribution.
+- Total annual revenue contribution.
+- Total monthly cash savings.
+- Total annual cash savings.
+- Total monthly recurring operating costs.
+- Total annual recurring operating costs.
+- Annual net operating benefit.
+- Monthly net operating benefit.
+- Investment payback period.
+- First-year net benefit.
+- First-year ROI.
+- Three-year cumulative cash benefit.
+
+Use contribution profit rather than gross transaction value wherever appropriate.
+
+Do not double-count revenue between hotel room bookings, car hire packages, partner commissions, and other services.
+
+For advertising, count only actual paid sponsorship or placement revenue, not hypothetical audience value.
+
+For workforce savings, do not count recovered productivity as cash savings unless there is a measurable expense reduction.
+
+For Companion, do not model unlawful services or assume that every booking results in a completed, commissionable transaction.
+
+### Financial visualization
+
+Show:
+- Revenue contribution by business engine.
+- Cost savings by operational category.
+- Recurring operating costs.
+- Monthly net contribution.
+- Cumulative cash-flow projection.
+- Estimated break-even period.
+
+Make all charts and results update instantly when assumptions change.
+
+Show three scenarios:
+
+**Conservative:** Limited adoption and modest commercial improvements.
+
+**Expected:** Progressive adoption across the hotel and selected service channels.
+
+**Ambitious:** Strong adoption, successful partnerships, and expansion into additional markets.
+
+Every assumption must remain editable.
+
+Do not prepopulate these scenarios with invented hotel financial facts.
+
+Include a financial methodology and assumptions panel.
+
+---
+
+# 10. THE COST OF DOING NOTHING
+
+**Headline:**
+
+# Growth without visibility creates unnecessary complexity.
+
+Explain the potential opportunity cost of remaining with disconnected processes:
+
+- Missed direct-booking opportunities.
+- Fragmented wedding and event enquiries.
+- Underdeveloped transportation revenue.
+- Manual administrative processes.
+- Limited management visibility.
+- Unidentified procurement discrepancies.
+- Reactive maintenance.
+- Poor use of historical operational data.
+- Lost opportunities for partner commissions.
+- Limited ability to scale services across locations.
+
+Do not assert that these losses are already happening. Present them as business risks and opportunities to validate during discovery.
+
+The message:
+
+The question is not only what technology costs. It is also what a business may continue to miss when its operations and commercial opportunities remain disconnected.
+
+---
+
+# 11. IMPLEMENTATION AND COMMERCIAL GOVERNANCE
+
+Add a concise section explaining that the ecosystem can be implemented in controlled stages.
+
+Suggested stages:
+
+1. Core hotel digital experience and reservations.
+2. Guest services, events, and car hire.
+3. Operations and workforce digitisation.
+4. Intelligence and financial visibility.
+5. Additional partner and marketplace services.
+6. Regional expansion.
+
+Explain that implementation priorities should be determined by business impact, technical readiness, operational dependencies, and management approval.
+
+Clearly distinguish:
+- Demonstration features.
+- Proposed production capabilities.
+- Third-party integrations requiring contracts.
+- Features requiring legal or regulatory approval.
+- Ongoing operating costs.
+
+No fake claims of existing live integrations, partnerships, user numbers, or revenue.
+
+---
+
+# 12. THE CLOSING
+
+Create a powerful cinematic conclusion.
+
+**Headline:**
+
+# Build a hotel that earns beyond its rooms.
+
+**Supporting copy:**
+
+The next opportunity in hospitality is not simply to provide accommodation.
+
+It is to build a connected business that attracts guests, coordinates services, supports its workforce, protects revenue, and creates commercial relationships that extend beyond a single property.
+
+Joclarif brings that opportunity into one coordinated ecosystem.
+
+**Final statement:**
+
+More visibility. More opportunities. More ways to grow.
+
+CTA: **EXPLORE THE J O C L A R I F OPPORTUNITY**
+
+---
+
+# DESIGN AND QUALITY REQUIREMENTS
+
+- Follow the established STILL WATERS visual identity.
+- Deep umber, champagne gold, amber light, cinematic architectural imagery.
+- Premium executive presentation, not a generic finance dashboard.
+- Use elegant financial charts, interactive maps, animated ecosystem diagrams, and carefully designed calculators.
+- Use restrained 3D elements and motion.
+- Make the commercial logic understandable without overwhelming the viewer.
+- Ensure all financial calculations work correctly.
+- All monetary values should use Nigerian naira formatting.
+- Fully responsive.
+- Preserve existing homepage, Intelligence, and Companion pages.
+- Add appropriate internal navigation.
+- Do not expose the private Companion concept through public homepage navigation.
+- Test all calculator scenarios, interactive diagrams, and page responsiveness.
+
+**The final page must answer five questions convincingly:**
+
+1. Where can the business make more money?
+2. Where can it save money or recover productive capacity?
+3. How can Joclarif earn recurring and transaction-based revenue?
+4. How can the business grow from one property into a wider regional network?
+5. Why is this a stronger commercial strategy than purchasing disconnected software products?
+
+The objective is to make the hotel owner see Joclarif not merely as a technology expense, but as a potential long-term commercial and operational growth platform.

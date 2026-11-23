@@ -15,14 +15,15 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Dual-Platform Presentation Chapters per design/prompt4.txt
+  // Dual-Platform Presentation Chapters & Mobility
   const navLinks = [
     { num: "01", label: "Vision", href: "#chapter-vision" },
     { num: "02", label: "Mobile App", href: "#chapter-mobile" },
     { num: "03", label: "Ecosystem", href: "#chapter-ecosystem" },
-    { num: "04", label: "Experience", href: "#chapter-demos" },
-    { num: "05", label: "Intelligence", href: "#chapter-intelligence" },
-    { num: "06", label: "Roadmap", href: "#chapter-roadmap" },
+    { num: "04", label: "Mobility", href: "#chapter-mobility" },
+    { num: "05", label: "Experience", href: "#chapter-demos" },
+    { num: "06", label: "Intelligence", href: "#chapter-intelligence" },
+    { num: "07", label: "Roadmap", href: "#chapter-roadmap" },
   ];
 
   return (

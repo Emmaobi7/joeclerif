@@ -50,18 +50,23 @@ export function Footer() {
                 </a>
               </li>
               <li>
+                <a href="#chapter-mobility" className="hover:text-amber-glow transition-colors">
+                  04 &bull; Joclarif Mobility &amp; Chauffeur
+                </a>
+              </li>
+              <li>
                 <a href="#chapter-demos" className="hover:text-amber-glow transition-colors">
-                  04 &bull; Experience the Demos
+                  05 &bull; Experience the Demos
                 </a>
               </li>
               <li>
                 <a href="#chapter-intelligence" className="hover:text-amber-glow transition-colors">
-                  05 &bull; System Intelligence
+                  06 &bull; System Intelligence
                 </a>
               </li>
               <li>
                 <a href="#chapter-roadmap" className="hover:text-amber-glow transition-colors">
-                  06 &bull; Roadmap &amp; Executive Brief
+                  07 &bull; Roadmap &amp; Executive Brief
                 </a>
               </li>
               <li className="pt-2 border-t border-champagne-200/10">

@@ -1,0 +1,82 @@
+# J O C L A R I F — ADD MOBILITY & CAR HIRE
+
+Extend the existing Joclarif main homepage with a premium **Mobility & Chauffeur Services** offering.
+
+Do not redesign the homepage or disrupt existing sections. Inspect the current page and identify the most natural position for this new service.
+
+### Product identity
+
+Name: **Joclarif Mobility**
+
+Headline: **Every journey, thoughtfully arranged.**
+
+Supporting copy:
+
+From airport arrivals to executive travel and special occasions, discover a more seamless way to move through every destination.
+
+### Service categories
+
+Create an elegant interactive service showcase with:
+
+1. Airport transfers.
+2. Executive chauffeur services.
+3. Luxury car hire.
+4. Premium SUVs.
+5. Group and family transportation.
+6. Intercity journeys.
+7. Wedding and event transportation.
+8. Hourly and full-day vehicle bookings.
+
+### Visual presentation
+
+Use cinematic photography of premium executive sedans, luxury SUVs, chauffeur-driven vehicles and elegant airport arrivals.
+
+Maintain the existing STILL WATERS identity:
+- Deep umber.
+- Champagne gold.
+- Cinematic lighting.
+- Refined typography.
+- Elegant transitions.
+- Restrained interactions.
+
+Do not make this resemble an ordinary car rental directory.
+
+### Interactive experience
+
+Build a compact booking demonstration with:
+
+- Pickup location.
+- Destination.
+- Pickup date and time.
+- Journey type.
+- Passenger count.
+- Vehicle category.
+- Chauffeur preference.
+- Request availability action.
+
+The prototype should display a simulated booking request and confirmation state.
+
+Use fictional sample vehicles and pricing, clearly labelled as demonstration data. Do not claim live fleet availability or actual provider integrations.
+
+### Business model
+
+Design the experience to support two future supply categories:
+
+**Hotel fleet:** Vehicles owned or operated by the hotel.
+
+**Verified mobility partners:** Independent vehicle owners and transport companies approved to serve Joclarif customers.
+
+The future platform should support provider profiles, vehicle listings, booking requests, commission configuration, booking history and provider payouts.
+
+### Homepage integration
+
+- Add a premium Mobility section to the existing homepage.
+- Make the service discoverable without overwhelming the original hotel presentation.
+- Include a clear Explore Mobility interaction.
+- Link to a dedicated mobility page only if the existing architecture and page density justify it.
+- Ensure the feature works responsively.
+- Preserve all existing homepage interactions.
+
+### Final objective
+
+Make Joclarif feel like a hospitality brand that can take care of the entire guest journey — not simply the room reservation.

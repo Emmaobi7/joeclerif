@@ -3,6 +3,7 @@ import { Navbar } from "@/components/Navbar";
 import { Chapter01Vision } from "@/components/chapters/Chapter01Vision";
 import { Chapter02MobileApp } from "@/components/chapters/Chapter02MobileApp";
 import { Chapter02Ecosystem } from "@/components/chapters/Chapter02Ecosystem";
+import { JoclarifMobilitySection } from "@/components/JoclarifMobilitySection";
 import { Chapter03Demonstrations } from "@/components/chapters/Chapter03Demonstrations";
 import { Chapter04Intelligence } from "@/components/chapters/Chapter04Intelligence";
 import { Chapter05RoadAhead } from "@/components/chapters/Chapter05RoadAhead";
@@ -23,16 +24,19 @@ export default function HomePage() {
       {/* 4. CHAPTER 03 — THE CONNECTED HOSPITALITY ECOSYSTEM (Tri-Partite Touchpoints + 3D Spatial Pavilion + 7-Moment Journey) */}
       <Chapter02Ecosystem />
 
-      {/* 5. CHAPTER 04 — EXPERIENCE IT (Interactive Demonstration Suite: 5 Working Demos with Executive Briefings) */}
+      {/* 5. JOCLARIF MOBILITY & CHAUFFEUR SERVICES (Whole-Journey Transit, Airport Transfers, Fleet & Partners) */}
+      <JoclarifMobilitySection />
+
+      {/* 6. CHAPTER 04 — EXPERIENCE IT (Interactive Demonstration Suite: 5 Working Demos with Executive Briefings) */}
       <Chapter03Demonstrations />
 
-      {/* 6. CHAPTER 05 — THE INTELLIGENCE BEHIND IT (Interactive 3-Tier Architecture + Integrations + NDPR Reliability) */}
+      {/* 7. CHAPTER 05 — THE INTELLIGENCE BEHIND IT (Interactive 3-Tier Architecture + Integrations + NDPR Reliability) */}
       <Chapter04Intelligence />
 
-      {/* 7. CHAPTER 06 — THE ROAD AHEAD (Interactive 5-Phase Roadmap Progression + Executive Consultation Card) */}
+      {/* 8. CHAPTER 06 — THE ROAD AHEAD (Interactive 5-Phase Roadmap Progression + Executive Consultation Card) */}
       <Chapter05RoadAhead />
 
-      {/* 8. Footer & Regulatory Disclaimers */}
+      {/* 9. Footer & Regulatory Disclaimers */}
       <Footer />
     </main>
   );
