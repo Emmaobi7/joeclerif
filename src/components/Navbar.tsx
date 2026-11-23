@@ -76,11 +76,11 @@ export function Navbar() {
             ))}
           </nav>
 
-          {/* Sleek, Restrained CTA Pill & Intelligence Command Centre Entry */}
-          <div className="hidden sm:flex items-center gap-3">
+          {/* Sleek, Restrained CTA Pill & Direct Platform Links (Intelligence & Companion) */}
+          <div className="hidden sm:flex items-center gap-2.5">
             <a
               href="/intelligence"
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-amber-glow/60 bg-amber-glow/15 backdrop-blur-md text-[10px] tracking-[0.24em] uppercase text-amber-glow hover:bg-amber-glow hover:text-shadow-darkest font-semibold shadow-glow transition-all"
+              className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-amber-glow/60 bg-amber-glow/15 backdrop-blur-md text-[10px] tracking-[0.22em] uppercase text-amber-glow hover:bg-amber-glow hover:text-shadow-darkest font-semibold shadow-glow transition-all"
             >
               <span className="w-1.5 h-1.5 rounded-full bg-amber-glow animate-pulse" />
               <span>Intelligence</span>
@@ -88,8 +88,16 @@ export function Navbar() {
             </a>
 
             <a
+              href="/companion"
+              className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-champagne-200/35 bg-[#22160b]/40 backdrop-blur-md text-[10px] tracking-[0.22em] uppercase text-champagne-200 hover:border-amber-glow hover:bg-amber-glow/15 hover:text-amber-glow font-medium transition-all"
+            >
+              <span>Companion</span>
+              <ArrowUpRight className="w-3 h-3" />
+            </a>
+
+            <a
               href="#chapter-roadmap"
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-champagne-200/25 bg-[#22160b]/30 backdrop-blur-sm text-[10px] tracking-[0.22em] uppercase text-champagne-200 hover:border-amber-glow hover:bg-amber-glow/10 transition-all"
+              className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-champagne-200/20 bg-shadow-darkest/60 backdrop-blur-sm text-[10px] tracking-[0.2em] uppercase text-champagne-200/80 hover:border-amber-glow hover:text-white transition-all"
             >
               <span>Executive Brief</span>
             </a>
@@ -123,7 +131,7 @@ export function Navbar() {
                   <span className="text-[10px] font-mono text-amber-glow/70">Chapter {link.num}</span>
                 </a>
               ))}
-              <div className="pt-4 border-t border-champagne-200/10 space-y-3">
+              <div className="pt-4 border-t border-champagne-200/10 space-y-2.5">
                 <a
                   href="/intelligence"
                   onClick={() => setMobileMenuOpen(false)}
@@ -131,6 +139,15 @@ export function Navbar() {
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-amber-glow animate-pulse" />
                   <span>EXPLORE J O C L A R I F INTELLIGENCE</span>
+                  <ArrowUpRight className="w-3.5 h-3.5" />
+                </a>
+
+                <a
+                  href="/companion"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="w-full flex items-center justify-center gap-2 px-6 py-3 rounded-full border border-champagne-200/35 bg-[#22160b]/50 text-champagne-200 font-semibold text-xs tracking-[0.2em] uppercase hover:border-amber-glow hover:text-amber-glow transition-all"
+                >
+                  <span>J O C L A R I F COMPANION</span>
                   <ArrowUpRight className="w-3.5 h-3.5" />
                 </a>
 

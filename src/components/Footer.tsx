@@ -64,6 +64,16 @@ export function Footer() {
                   06 &bull; Roadmap &amp; Executive Brief
                 </a>
               </li>
+              <li className="pt-2 border-t border-champagne-200/10">
+                <a href="/intelligence" className="text-amber-glow hover:underline flex items-center gap-1 font-mono text-[11px]">
+                  <span>&rarr; Joclarif Intelligence (Command Centre)</span>
+                </a>
+              </li>
+              <li>
+                <a href="/companion" className="text-amber-glow hover:underline flex items-center gap-1 font-mono text-[11px]">
+                  <span>&rarr; Joclarif Companion (Private Showcase)</span>
+                </a>
+              </li>
             </ul>
           </div>
 
