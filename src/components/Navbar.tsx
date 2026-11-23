@@ -77,7 +77,7 @@ export function Navbar() {
             ))}
           </nav>
 
-          {/* Sleek, Restrained CTA Pill & Direct Platform Links (Intelligence & Companion) */}
+          {/* Sleek, Restrained CTA Pill & Direct Platform Links (Intelligence & Business Case) */}
           <div className="hidden sm:flex items-center gap-2.5">
             <a
               href="/intelligence"
@@ -89,10 +89,10 @@ export function Navbar() {
             </a>
 
             <a
-              href="/companion"
-              className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-champagne-200/35 bg-[#22160b]/40 backdrop-blur-md text-[10px] tracking-[0.22em] uppercase text-champagne-200 hover:border-amber-glow hover:bg-amber-glow/15 hover:text-amber-glow font-medium transition-all"
+              href="/investment"
+              className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-champagne-200/40 bg-[#22160b]/60 backdrop-blur-md text-[10px] tracking-[0.22em] uppercase text-champagne-100 hover:border-amber-glow hover:bg-amber-glow/20 hover:text-amber-glow font-medium transition-all"
             >
-              <span>Companion</span>
+              <span>The Business Case</span>
               <ArrowUpRight className="w-3 h-3" />
             </a>
 
@@ -144,11 +144,11 @@ export function Navbar() {
                 </a>
 
                 <a
-                  href="/companion"
+                  href="/investment"
                   onClick={() => setMobileMenuOpen(false)}
                   className="w-full flex items-center justify-center gap-2 px-6 py-3 rounded-full border border-champagne-200/35 bg-[#22160b]/50 text-champagne-200 font-semibold text-xs tracking-[0.2em] uppercase hover:border-amber-glow hover:text-amber-glow transition-all"
                 >
-                  <span>J O C L A R I F COMPANION</span>
+                  <span>THE BUSINESS CASE (COMMERCIAL ROI)</span>
                   <ArrowUpRight className="w-3.5 h-3.5" />
                 </a>
 

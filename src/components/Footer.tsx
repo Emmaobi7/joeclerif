@@ -70,12 +70,17 @@ export function Footer() {
                 </a>
               </li>
               <li className="pt-2 border-t border-champagne-200/10">
-                <a href="/intelligence" className="text-amber-glow hover:underline flex items-center gap-1 font-mono text-[11px]">
+                <a href="/investment" className="text-amber-glow hover:underline flex items-center gap-1 font-mono text-[11px] font-semibold">
+                  <span>&rarr; The Business Case (Commercial Strategy &amp; ROI)</span>
+                </a>
+              </li>
+              <li>
+                <a href="/intelligence" className="text-champagne-200/80 hover:text-amber-glow hover:underline flex items-center gap-1 font-mono text-[11px]">
                   <span>&rarr; Joclarif Intelligence (Command Centre)</span>
                 </a>
               </li>
               <li>
-                <a href="/companion" className="text-amber-glow hover:underline flex items-center gap-1 font-mono text-[11px]">
+                <a href="/companion" className="text-champagne-200/50 hover:text-amber-glow hover:underline flex items-center gap-1 font-mono text-[10px]">
                   <span>&rarr; Joclarif Companion (Private Showcase)</span>
                 </a>
               </li>

@@ -147,19 +147,19 @@ export function Chapter01Vision() {
 
               <div className="flex flex-wrap items-center gap-3">
                 <a
-                  href="/intelligence"
+                  href="/investment"
                   className="inline-flex items-center gap-2.5 px-5 py-3 rounded-full border border-amber-glow/70 bg-amber-glow/15 backdrop-blur-md text-amber-glow text-[10px] tracking-[0.24em] uppercase font-semibold shadow-glow hover:bg-amber-glow hover:text-shadow-darkest transition-all"
                 >
-                  <Sparkles className="w-3.5 h-3.5" />
-                  <span>JOCLARIF INTELLIGENCE</span>
+                  <TrendingUp className="w-3.5 h-3.5" />
+                  <span>THE BUSINESS CASE</span>
                   <ArrowRight className="w-3.5 h-3.5" />
                 </a>
                 <a
-                  href="/companion"
+                  href="/intelligence"
                   className="inline-flex items-center gap-2.5 px-5 py-3 rounded-full border border-champagne-200/40 bg-[#22160b]/60 backdrop-blur-md text-champagne-100 text-[10px] tracking-[0.22em] uppercase font-semibold shadow-glow hover:border-amber-glow hover:bg-amber-glow/20 hover:text-amber-glow transition-all"
                 >
-                  <UserCheck className="w-3.5 h-3.5 text-amber-glow" />
-                  <span>JOCLARIF COMPANION</span>
+                  <Sparkles className="w-3.5 h-3.5 text-amber-glow" />
+                  <span>JOCLARIF INTELLIGENCE</span>
                   <ArrowRight className="w-3.5 h-3.5 text-amber-glow" />
                 </a>
                 <a
