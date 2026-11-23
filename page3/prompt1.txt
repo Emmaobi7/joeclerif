@@ -1,0 +1,238 @@
+# J O C L A R I F — COMPANION
+## Implementation Brief: Private Product Showcase
+
+Build a new standalone page for **Joclarif Companion** inside the existing Joclarif project.
+
+### 1. First: Understand the Existing Project
+
+Before coding:
+- Inspect the existing framework, routing, components, styling system, and animation/3D libraries.
+- Reuse the established STILL WATERS design language.
+- Preserve existing pages and functionality.
+- Do not redesign the main Joclarif website.
+- Create a standalone route, such as `/companion`.
+- Do not add this page to the public homepage navigation or publicly advertise it. It is a private product presentation shared directly with the hotel stakeholders.
+
+### 2. Product Positioning
+
+**Product:** Joclarif Companion
+
+**Headline:** A More Personal Way to Experience Hospitality.
+
+**Supporting copy:** A thoughtfully managed companion discovery and coordination experience, designed around verified identities, personal choice, and greater confidence for everyone involved.
+
+This is a concept for lawful adult social companionship and introductions. Do not present it as a sexual-services marketplace or build functionality intended to facilitate prostitution, exploitation, trafficking, coercion, or other unlawful activity.
+
+The product uses a hybrid model:
+- Individuals can create and manage their own profiles.
+- Joclarif independently verifies and approves profiles.
+- Only approved, active profiles can appear in discovery or receive requests.
+- Users retain control over their availability, profile visibility, boundaries, and requests.
+
+### 3. Visual Direction
+
+Maintain the established STILL WATERS identity:
+- Deep umber and rich dark backgrounds.
+- Pale champagne typography and restrained amber-gold highlights.
+- Cinematic lighting, soft reflections, subtle atmospheric gradients.
+- Elegant editorial typography.
+- Premium hospitality aesthetic.
+- Smooth, restrained transitions and micro-interactions.
+
+This should feel like a sophisticated private product reveal, not a generic dating website, social network, or admin dashboard.
+
+### 4. Hero Experience
+
+Create a cinematic hero section with:
+
+**Left side**
+- Small brand label: J O C L A R I F / PRIVATE EXPERIENCE
+- Headline: A More Personal Way to Experience Hospitality.
+- Short product description.
+- Three concise trust principles:
+  - Verified identities
+  - Personal choice and control
+  - Protected booking coordination
+
+**Right side**
+- A large, beautifully rendered interactive smartphone mockup.
+- The phone should look like a real premium mobile product, not a flat screenshot.
+- Use subtle 3D perspective, depth, reflections, and lighting.
+- The phone screen should be fully interactive and demonstrate the product.
+
+Include a discreet label: PRIVATE PRODUCT CONCEPT.
+
+### 5. Interactive Smartphone Prototype
+
+The phone must demonstrate two distinct experiences through a toggle:
+
+**GUEST EXPERIENCE**
+
+Build a realistic simulated guest journey:
+
+1. Welcome screen.
+2. Discover approved companion profiles.
+3. Browse profile cards with photographs, biographies, interests, availability, and stated boundaries.
+4. Open a profile to inspect its details.
+5. Send a request for a selected time.
+6. View request status.
+7. See a simulated booking confirmation.
+8. View the protected-payment status.
+9. Access meeting details and safety options.
+10. View the completion-confirmation screen.
+
+Use tasteful fictional adult profile data and appropriate imagery. Do not use explicit or sexualised imagery.
+
+**COMPANION EXPERIENCE**
+
+Build a realistic simulated companion journey:
+
+1. Welcome / account screen.
+2. Create and edit a personal profile.
+3. Set interests, introduction preferences, availability, and boundaries.
+4. Submit identity verification.
+5. View verification status.
+6. See a clear distinction between:
+   - Draft
+   - Verification pending
+   - Approved and active
+   - Suspended / verification expired
+7. View incoming requests.
+8. Accept or decline a request.
+9. View confirmed bookings.
+10. View the protected-funds and earnings interface.
+11. View completion confirmation and withdrawal eligibility.
+
+Important: Creating an account or profile does not automatically make someone eligible to offer services. Only Joclarif-approved accounts can become discoverable or accept requests.
+
+### 6. Trust, Verification and Safety
+
+The product's trust model must be visible in the demonstration.
+
+**Identity verification**
+- Verify legal identity and age.
+- Minimum age: 18.
+- Use a reputable identity-verification provider in a real production implementation.
+- Joclarif approval is required before activation.
+- The individual cannot mark their own profile as verified.
+- Reverification may be required when verification expires or suspicious activity is detected.
+
+For this proposal prototype, simulate the verification journey. Do not collect real identity documents or claim a live verification integration exists.
+
+**Companion protection**
+- Control over profile visibility.
+- Ability to accept or decline requests.
+- Ability to block and report users.
+- Clear personal boundaries.
+- Access to safety support.
+- Ability to cancel or report unsafe situations.
+
+**Guest protection**
+- Only approved profiles appear in discovery.
+- Clear profile information and booking terms.
+- Secure communication concept.
+- Reporting and support.
+- Transparent booking and payment status.
+
+**Hotel protection**
+- Visitor authorisation and access procedures.
+- Appropriate guest and visitor records.
+- Restricted access to relevant hotel areas.
+- Incident reporting and escalation.
+- Operational audit history.
+- Only the minimum necessary information is shared with hotel staff.
+
+Do not expose private conversations, sensitive companion profile information, or unnecessary personal data to hotel staff.
+
+### 7. Upfront Payment and Completion Confirmation
+
+Demonstrate the intended payment lifecycle using simulated data only.
+
+**Booking sequence:**
+1. Guest sends a request.
+2. Companion accepts.
+3. Guest pays upfront through the proposed payment provider.
+4. The interface shows payment as secured.
+5. The booking becomes confirmed.
+6. The meeting takes place.
+7. Both parties independently confirm completion.
+8. The system checks for disputes and applicable payment holds.
+9. The companion sees the amount become eligible for withdrawal.
+
+**Completion verification**
+- Demonstrate a one-time completion PIN.
+- Guest and companion must independently confirm through their authenticated accounts.
+- A shared PIN alone must not be sufficient to release payment.
+- If either party disputes completion, the transaction enters a review state.
+- Reporting an unsafe situation must never require someone to complete a meeting or surrender their safety.
+
+**Wallet interface**
+
+Show two distinct balances:
+- Protected booking funds: funds associated with active bookings.
+- Available earnings: funds eligible for withdrawal after completion and applicable checks.
+
+Do not build a real wallet, process actual payments, or imply that Joclarif currently holds customer money.
+
+Production payment handling must use a legally appropriate licensed payment provider or safeguarded arrangement. The legal classification of the proposed holding and payout model must be reviewed before launch.
+
+### 8. How It Works — Small Supporting Section
+
+Below the hero, create a restrained, elegant three-step explanation:
+
+**01 — Discover**
+Explore approved profiles and make an introduction request.
+
+**02 — Coordinate**
+Confirm availability and booking details through the platform.
+
+**03 — Confirm**
+Both parties independently confirm completion, with support and dispute procedures available.
+
+Use refined motion and visual storytelling rather than large explanatory blocks.
+
+### 9. Protection Model — Three Perspectives
+
+Add a compact section titled:
+
+**Designed Around Three Layers of Trust.**
+
+Present three elegant cards:
+
+- **For Companions:** Identity verification, personal control, boundaries, privacy, reporting, and safety support.
+- **For Guests:** Approved profiles, transparent terms, protected booking coordination, and support.
+- **For the Hotel:** Visitor procedures, controlled access, incident escalation, and accountable operations.
+
+The hotel must not be presented as automatically protected simply because the app exists. Actual protection also depends on policies, staff procedures, agreements, insurance, and legal compliance.
+
+### 10. Demo Behaviour and Technical Requirements
+
+- All profiles, bookings, payments, verification statuses, and transactions must be fictional simulated data.
+- Add a discreet DEMO label inside the phone interface.
+- No actual payment processing.
+- No real identity-document collection.
+- No live booking or messaging integrations.
+- Use realistic state transitions so the prototype feels like a functioning product.
+- Ensure the guest and companion toggles work.
+- Ensure buttons, profile cards, requests, booking states, and completion screens are interactive.
+- Include responsive layouts for desktop, tablet, and mobile.
+- Use existing project dependencies wherever possible.
+- Avoid unnecessary paid dependencies.
+- Keep components modular and maintainable.
+
+### 11. Final Quality Standard
+
+The page should make a hotel stakeholder immediately understand:
+
+1. What Joclarif Companion is.
+2. How a guest uses it.
+3. How a companion manages their participation.
+4. Why verification and approval matter.
+5. How booking payments and completion confirmation are intended to work.
+6. How companions, guests, and the hotel are protected.
+
+The finished experience should feel like a premium product demonstration that could be presented to an international hospitality group.
+
+Do not build the entire production platform. Build a convincing, polished, interactive product concept that communicates the experience and operating model.
+
+Before finishing, test the route, responsive behaviour, interactive phone flows, and existing homepage to ensure nothing else has been broken.
