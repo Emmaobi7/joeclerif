@@ -163,11 +163,12 @@ export function Chapter01Vision() {
                   <ArrowRight className="w-3.5 h-3.5 text-amber-glow" />
                 </a>
                 <a
-                  href="#chapter-mobile"
-                  className="inline-flex items-center gap-2 px-4 py-3 rounded-full bg-gradient-to-r from-amber-glow to-amber-deep text-shadow-darkest text-[10px] tracking-[0.2em] uppercase font-semibold shadow-glow hover:opacity-95 transition-all"
+                  href="/companion"
+                  className="inline-flex items-center gap-2.5 px-5 py-3 rounded-full border border-champagne-200/40 bg-[#22160b]/60 backdrop-blur-md text-champagne-100 text-[10px] tracking-[0.22em] uppercase font-semibold shadow-glow hover:border-amber-glow hover:bg-amber-glow/20 hover:text-amber-glow transition-all"
                 >
-                  <Smartphone className="w-3.5 h-3.5" />
-                  <span>Mobile App</span>
+                  <UserCheck className="w-3.5 h-3.5 text-amber-glow" />
+                  <span>JOCLARIF COMPANION</span>
+                  <ArrowRight className="w-3.5 h-3.5 text-amber-glow" />
                 </a>
               </div>
             </div>

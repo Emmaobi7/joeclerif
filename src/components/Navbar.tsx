@@ -21,7 +21,7 @@ export function Navbar() {
     { num: "02", label: "Mobile", href: "#chapter-mobile" },
     { num: "03", label: "Ecosystem", href: "#chapter-ecosystem" },
     { num: "04", label: "Mobility", href: "#chapter-mobility" },
-    { num: "05", label: "Experience", href: "#chapter-demos" },
+    { num: "05", label: "Companion", href: "/companion" },
     { num: "06", label: "Intelligence", href: "/intelligence" },
   ];
 
